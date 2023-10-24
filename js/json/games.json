@@ -549,11 +549,6 @@
     "tags": "unity, intense, singleplayer, action, point-and-click"
   },
   {
-    "url": "./uno/",
-    "imageSrc": "uno/splash.jpg",
-    "name": "UNO! Online"
-  },
-  {
     "url": "/game/?pizza-tower",
     "imageSrc": "/game/img/pizzatower.jpg",
     "name": "Pizza Tower"

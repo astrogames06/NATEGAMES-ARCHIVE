@@ -87,22 +87,26 @@
         "gameTitle": "Papa's Scooperia"
     },
     "gimme-the-airpod": {
-        "pageMapping": "https://cdn.nate-games.xyz/gimme-the-airpod/",
+        "pageMapping": "/gimme-the-airpod/",
+        "usecdn": true,
         "imageSrc": "/game/img/gimme-airpod.png",
         "gameTitle": "Gimme the Airpod"
     },
     "rocket-buddy": {
-        "pageMapping": "https://cdn.nate-games.xyz/rocket-buddy/",
+        "pageMapping": "/rocket-buddy/",
+        "usecdn": true,
         "imageSrc": "/game/img/rocketbuddy.png",
         "gameTitle": "Rocket Buddy"
     },
     "tag": {
-        "pageMapping": "https://cdn.nate-games.xyz/tag/",
+        "pageMapping": "/tag/",
+        "usecdn": true,
         "imageSrc": "/game/img/tag.avif",
         "gameTitle": "Tag"
     },
     "tiny-yurts": {
-        "pageMapping": "https://cdn.nate-games.xyz/js13k/?tiny-yurts",
+        "pageMapping": "/js13k/?tiny-yurts",
+        "usecdn": true,
         "imageSrc": "/game/img/tiny-yurts.webp",
         "gameTitle": "Tiny Yurts"
     },
@@ -142,8 +146,9 @@
         "gameTitle": "Plants vs. Zombies; DS"
     },
     "basketball-random": {
-        "pageMapping": "https://cdn.nate-games.xyz/basketrandom/",
+        "pageMapping": "/basketrandom/",
         "imageSrc": "https://play-lh.googleusercontent.com/gP8T5Z1O-ngxIloiwcBZzrzyLPYDp0R_1BDNKUDZboIRPVImeyWI8-7aExvB9gAGNKc",
+        "usecdn": true,
         "gameTitle": "Basketball Random"
     },
     "jelly-mario": {
@@ -167,22 +172,26 @@
         "gameTitle": "Bottle Flip 3D"
     },
     "3d-city": {
-        "pageMapping": "https://cdn.nate-games.xyz/3d-city/",
+        "pageMapping": "/3d-city/",
+        "usecdn": true,
         "imageSrc": "/game/img/3d-city.jpg",
         "gameTitle": "3D.City"
     },
     "duck-hunt": {
-        "pageMapping": "https://cdn.nate-games.xyz/duckhunt/",
+        "pageMapping": "/duckhunt/",
+        "usecdn": true,
         "imageSrc": "/game/img/duckhunt.png",
         "gameTitle": "Duck Hunt"
     },
     "tiny-fishing": {
-        "pageMapping": "https://cdn.nate-games.xyz/tiny-fishing/",
+        "pageMapping": "/tiny-fishing/",
+        "usecdn": true,
         "imageSrc": "/game/img/tiny-fishing.png",
         "gameTitle": "Tiny Fishing"
     },
     "pizza-tower": {
-        "pageMapping": "https://cdn.nate-games.xyz/pizzatower/",
+        "pageMapping": "/pizzatower/",
+        "usecdn": true,
         "imageSrc": "/game/img/pizzatower.jpg",
         "gameTitle": "Pizza Tower"
     },
@@ -207,7 +216,8 @@
         "gameTitle": "Dumb ways to die"
     },
     "geometry-dash": {
-        "pageMapping": "https://cdn.nate-games.xyz/gdash/",
+        "pageMapping": "/gdash/",
+        "usecdn": true,
         "imageSrc": "/game/img/geometrydash.svg",
         "gameTitle": "Geometry Dash"
     },
@@ -247,17 +257,20 @@
         "gameTitle": "Candy Crush"
     },
     "cut-the-rope": {
-        "pageMapping": "https://cdn.nate-games.xyz/cut-the-rope/",
+        "pageMapping": "/cut-the-rope/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/cut-the-rope/rope.png",
         "gameTitle": "Cut The Rope"
     },
     "cut-the-rope-holiday-gift": {
-        "pageMapping": "https://cdn.nate-games.xyz/cut-the-rope/holiday-gift/",
+        "pageMapping": "/cut-the-rope/holiday-gift/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/cut-the-rope/holiday-gift/k9aatx1o.bmp",
         "gameTitle": "Cut The Rope: Holiday Gift"
     },
     "cut-the-rope-time-travel": {
-        "pageMapping": "https://cdn.nate-games.xyz/cut-the-rope/time-travel/",
+        "pageMapping": "/cut-the-rope/time-travel/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/cut-the-rope/time-travel/time.png",
         "gameTitle": "Cut The Rope: Time Travel"
     },
@@ -267,48 +280,57 @@
         "gameTitle": "Google Snake"
     },
     "repuls.io": {
-        "pageMapping": "https://cdn.nate-games.xyz/repuls/",
+        "pageMapping": "/repuls/",
+        "usecdn": true,
         "imageSrc": "/game/img/repuls-io.jpg",
         "gameTitle": "Repuls.io"
     },
     "fnaf-4": {
-        "pageMapping": "https://cdn.nate-games.xyz/fnaf-4/",
+        "pageMapping": "/fnaf-4/",
+        "usecdn": true,
         "imageSrc": "/game/img/fnaf-4.webp",
         "gameTitle": "FNAF 4"
     },
     "fnf-mid-fight-masses": {
-        "pageMapping": "https://cdn.nate-games.xyz/fnfmidfight/",
+        "pageMapping": "/fnfmidfight/",
+        "usecdn": true,
         "imageSrc": "/game/img/fnfmidfight.jpg",
         "gameTitle": "FNF Mid-Fight Masses"
     },
     "fnf-vs-whitty": {
-        "pageMapping": "https://cdn.nate-games.xyz/fnfvswhitty/",
+        "pageMapping": "/fnfvswhitty/",
+        "usecdn": true,
         "imageSrc": "/game/img/fnf-vs-whitty.jpg",
         "gameTitle": "FNF vs. Whitty",
         "description": "Recommended by Joaquin"
     },
     "vex-3": {
-        "pageMapping": "https://cdn.nate-games.xyz/vex-3/",
+        "pageMapping": "/vex-3/",
         "imageSrc": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/87/06/4e/87064e7a-c9fd-7135-6ba3-f321f013e01e/mzl.kqcjsyop.png/512x512bb.jpg",
+        "usecdn": true,
         "gameTitle": "Vex 3"
     },
     "vex-4": {
-        "pageMapping": "https://cdn.nate-games.xyz/vex-4/",
+        "pageMapping": "/vex-4/",
+        "usecdn": true,
         "imageSrc": "/game/img/vex-4.jpg",
         "gameTitle": "Vex 4"
     },
     "vex-5": {
-        "pageMapping": "https://cdn.nate-games.xyz/vex-5/",
+        "pageMapping": "/vex-5/",
         "imageSrc": "/game/img/vex-5.jpeg",
+        "usecdn": true,
         "gameTitle": "Vex 5"
     },
     "vex-6": {
-        "pageMapping": "https://cdn.nate-games.xyz/vex-6/",
+        "pageMapping": "/vex-6/",
+        "usecdn": true,
         "imageSrc": "/game/img/vex-6.jpeg",
         "gameTitle": "Vex 6"
     },
     "vex-7": {
-        "pageMapping": "https://cdn.nate-games.xyz/vex-7/",
+        "pageMapping": "/vex-7/",
+        "usecdn": true,
         "imageSrc": "/game/img/vex-7.jpeg",
         "gameTitle": "Vex 7"
     },
@@ -339,7 +361,8 @@
         "gameTitle": "Stick Merge"
     },
     "stick-fighter": {
-        "pageMapping": "https://cdn.nate-games.xyz/stick-fighter/",
+        "pageMapping": "/stick-fighter/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/stick-fighter/icons/icon-256.png",
         "gameTitle": "Stick Fighter"
     },
@@ -349,9 +372,11 @@
         "gameTitle": "Swingo"
     },
     "neon-swing": {
-        "pageMapping": "https://cdn.nate-games.xyz/neonswing/",
+        "pageMapping": "/neonswing/",
+        "usecdn": true,
         "imageSrc": "https://play-lh.googleusercontent.com/aUUqrS7i6UFtiG7oQdrfRdyCWN2XXV13DVeJTHmYub7Qdz7lQ6XyGJpB7RaeNlyXPw",
-        "gameTitle": "Neon Swing"
+        "gameTitle": "Neon Swing",
+        "description": "Better Stickman Hook!"
     },
     "temple-of-boom": {
         "pageMapping": "https://topvazstore.github.io/g3/temple-of-boom/",
@@ -374,7 +399,8 @@
         "gameTitle": "Burnin Rubber 5 XS"
     },
     "burger-and-frights": {
-        "pageMapping": "https://cdn.nate-games.xyz/burger-frights/",
+        "pageMapping": "/burger-frights/",
+        "usecdn": true,
         "imageSrc": "https://img.itch.zone/aW1nLzY4MDU0NjcucG5n/315x250%23c/Wda88F.png",
         "gameTitle": "Burger and Frights"
     },
@@ -394,37 +420,44 @@
         "gameTitle": "Getaway Shootout"
     },
     "precision-client": {
-        "pageMapping": "https://cdn.nate-games.xyz/PrecisionClient/game/compiled/web/",
+        "pageMapping": "/PrecisionClient/game/compiled/web/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/PrecisionClient/game/splash.jpg",
         "gameTitle": "Precision Client"
     },
     "fnaf-2-hacks": {
-        "pageMapping": "https://cdn.nate-games.xyz/fnaf-2hacks/game/",
+        "pageMapping": "/fnaf-2hacks/game/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/fnaf-2hacks/game/splash.png",
         "gameTitle": "FNAF 2 [HACKS]"
     },
     "fnf-mobile": {
-        "pageMapping": "https://cdn.nate-games.xyz/fnfmobile/game/",
+        "pageMapping": "/fnfmobile/game/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/fnfmobile/game/splash.jpg",
         "gameTitle": "FNF Mobile"
     },
     "undertale": {
-        "pageMapping": "https://cdn.nate-games.xyz/Undertale/",
+        "pageMapping": "/Undertale/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/Undertale/splash2.jpg",
         "gameTitle": "Undertale Enchanced"
     },
     "sans-fight": {
-        "pageMapping": "https://cdn.nate-games.xyz/sans-fight/",
+        "pageMapping": "/sans-fight/",
+        "usecdn": true,
         "imageSrc": "/game/img/sans-fight.jpg",
         "gameTitle": "Sans Fight"
     },
     "deepest-sword": {
-        "pageMapping": "https://cdn.nate-games.xyz/deepest-sword/",
+        "pageMapping": "/deepest-sword/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/deepest-sword/deepest-sword.webp",
         "gameTitle": "Deepest Sword"
     },
     "fnf": {
-        "pageMapping": "https://cdn.nate-games.xyz/fnf/game/",
+        "pageMapping": "/fnf/game/",
+        "usecdn": true,
         "imageSrc": "https://cdn.nate-games.xyz/fnf/game/fnf.avif",
         "gameTitle": "Friday Night Funkin'"
     },
@@ -439,7 +472,8 @@
         "gameTitle": "Valorant"
     },
     "angrybirds": {
-        "pageMapping": "https://cdn.nate-games.xyz/angrybirds/",
+        "pageMapping": "/angrybirds/",
+        "usecdn": true,
         "imageSrc": "/game/img/angrybirds.png",
         "gameTitle": "Angry Birds",
         "description": "(Opens in CDN)"
@@ -450,7 +484,8 @@
         "gameTitle": "Money Land"
     },
     "master-chess": {
-        "pageMapping": "https://cdn.nate-games.xyz/master-chess/",
+        "pageMapping": "/master-chess/",
+        "usecdn": true,
         "imageSrc": "/game/img/master-chess.avif",
         "gameTitle": "Master Chess"
     },
@@ -476,12 +511,14 @@
         "gameTitle": "Combat Reloaded"
     },
     "nut-simulator": {
-        "pageMapping": "https://cdn.nate-games.xyz/nutsimulator/",
+        "pageMapping": "/nutsimulator/",
+        "usecdn": true,
         "imageSrc": "/game/img/nutsim.jpg",
         "gameTitle": "Nut Simulator"
     },
     "nut-simulator-hacks": {
-        "pageMapping": "https://cdn.nate-games.xyz/hacked-nutsimulator/",
+        "pageMapping": "/hacked-nutsimulator/",
+        "usecdn": true,
         "imageSrc": "/game/img/nutsim.jpg",
         "gameTitle": "Nut Simulator [Hacked]"
     },
@@ -591,7 +628,8 @@
         "gameTitle": "Monkey Mart"
     },
     "big-neon-tower-vs-tiny-square": {
-        "pageMapping": "https://cdn.nate-games.xyz/big-neon-tower-vs-tiny-square/",
+        "pageMapping": "/big-neon-tower-vs-tiny-square/",
+        "usecdn": true,
         "imageSrc": "/game/img/big-neon-tower.jpg",
         "gameTitle": "Big neon tower vs. Tiny Square"
     }
