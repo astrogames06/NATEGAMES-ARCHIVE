@@ -1,8 +1,6 @@
 var allowedDomains = [
   "https://nate-games.xyz",
-  "https://nate-games.xyz.",
-  "https://nates-cdn.pages.dev", // Hosting provider
-  "http://192.168.4.63:8080",
+  "https://www.nate-games.xyz",
   "http://localhost:8080",
 ];
 
