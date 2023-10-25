@@ -27,7 +27,7 @@ console.log("Page hostname is " + window.location.hostname); // https://www.w3sc
 console.log("Port number is " + window.location.port);
 
 if (allowedDomains.indexOf(currentDomain) === -1) {
-  window.top.location.href = "https://nate-games.xyz/en-us/sitelock";
+  window.top.location.href = "https://www.nate-games.xyz/en-us/sitelock";
 }
 
 function addScriptSrc(src, callback) {
