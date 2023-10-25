@@ -13,6 +13,14 @@ body:
     validations:
       required: false
   - type: input
+    id: starred
+    attributes:
+      label: Starred
+      description: You accept that you have this repository starred. And at any time if you unstar it the game gets removed. OR if an unexpectedly a game gets a takedown request (DMCA). 
+      placeholder: I accept, I have the repository starred including our takedown notice. (Yes/No)
+    validations:
+      required: true
+  - type: input
     id: g-name
     attributes:
       label: Game Name
