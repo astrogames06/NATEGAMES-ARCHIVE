@@ -7,7 +7,7 @@ const respectiveNote = document.getElementById("respective-note");
 var createLinebreak = document.createElement("br");
 const flashOpener = document.getElementById("flash-opener");
 imageElement.src =
-  "https://raw.githubusercontent.com/n3r4zzurr0/svg-spinners/main/preview/ring-resize-white-36.svg";
+  "/img/svg/spinners/default.svg";
 
 centerAlign.appendChild(loadingMessage);
 loadingMessage.appendChild(createLinebreak);

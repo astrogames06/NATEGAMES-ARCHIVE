@@ -21,14 +21,16 @@
         "gameTitle": "JustFall.LOL"
     },
     "cluster-rush": {
-        "pageMapping": "/0/g/cluster-rush/",
-        "imageSrc": "https://raw.githubusercontent.com/OutRed/outred-assets-cdn.outred.org/main/cluster-rush/splash.png",
-        "gameTitle": "Cluster Rush"
+        "pageMapping": "/cluster-rush/",
+        "imageSrc": "/game/img/cluster-rush.png",
+        "gameTitle": "Cluster Rush",
+        "usecdn": true
     },
     "doodle-jump": {
-        "pageMapping": "/0/g/doodle-jump/",
+        "pageMapping": "/doodle-jump/",
         "imageSrc": "/game/img/doodle-jump.png",
-        "gameTitle": "Doodle Jump"
+        "gameTitle": "Doodle Jump",
+        "usecdn": true
     },
     "octocat-jump": {
         "pageMapping": "https://cdn.nate-games.xyz/octocat-jump/",
@@ -111,9 +113,10 @@
         "gameTitle": "Tiny Yurts"
     },
     "doge-miner": {
-        "pageMapping": "/0/g/doge-miner/",
-        "imageSrc": "/0/g/doge-miner/ymzwlane.bmp",
-        "gameTitle": "Doge Miner"
+        "pageMapping": "/doge-miner/",
+        "imageSrc": "/game/img/doge-miner.bmp",
+        "gameTitle": "Doge Miner",
+        "usecdn": true
     },
     "flash-sonic": {
         "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fultimate-flash-sonic.xml",
@@ -131,7 +134,7 @@
         "gameTitle": "Subway Surfers"
     },
     "electricman": {
-        "pageMapping": "/0/g/electricman/",
+        "pageMapping": "/flash-loader/dynamic-loader?swf=files/electricman.swf",
         "imageSrc": "/game/img/electricman.png",
         "gameTitle": "Electric Man"
     },
@@ -152,24 +155,28 @@
         "gameTitle": "Basketball Random"
     },
     "jelly-mario": {
-        "pageMapping": "/0/g/html/jellymario/",
+        "pageMapping": "/jellymario/",
         "imageSrc": "/game/img/jelly-mar.gif",
-        "gameTitle": "Jelly Mario"
+        "gameTitle": "Jelly Mario",
+        "usecdn": true
     },
     "2048-multitask": {
-        "pageMapping": "/0/g/2048-multitask/",
+        "pageMapping": "/2048-multitask/",
         "imageSrc": "/game/img/2048-multitask.png",
-        "gameTitle": "2048 Multitask"
+        "gameTitle": "2048 Multitask",
+        "usecdn": true
     },
     "game-inside-a-game": {
-        "pageMapping": "/0/g/giag/",
+        "pageMapping": "/game-inside-a-game/",
         "imageSrc": "https://img.itch.zone/aW1nLzQ1OTUwODcucG5n/original/Xdhfjt.png",
-        "gameTitle": "Game Inside A Game"
+        "gameTitle": "Game Inside A Game",
+        "usecdn": true
     },
     "bottle-flip-3d": {
-        "pageMapping": "/0/g/bf3d/",
+        "pageMapping": "/bottle-flip-3d/",
         "imageSrc": "https://play-lh.googleusercontent.com/sMpJpTPMtTMr9tfusBtbWIz_h2UdX3iwx8Ea4w6vJ-0vyFILvpIMj_JvwVSeS6Xq0bg",
-        "gameTitle": "Bottle Flip 3D"
+        "gameTitle": "Bottle Flip 3D",
+        "usecdn": true
     },
     "3d-city": {
         "pageMapping": "/3d-city/",
@@ -222,8 +229,9 @@
         "gameTitle": "Geometry Dash"
     },
     "slope-game": {
-        "pageMapping": "/0/g/slope/",
+        "pageMapping": "/slope/",
         "imageSrc": "/game/img/slope.jpg",
+        "usecdn": true,
         "gameTitle": "Slope"
     },
     "slope-2": {
@@ -356,9 +364,10 @@
         "gameTitle": "Stick Defenders"
     },
     "stick-merge": {
-        "pageMapping": "/0/g/html/stick-merge/",
+        "pageMapping": "/stick-merge/",
         "imageSrc": "/game/img/stickmerge.avif",
-        "gameTitle": "Stick Merge"
+        "gameTitle": "Stick Merge",
+        "usecdn": true
     },
     "stick-fighter": {
         "pageMapping": "/stick-fighter/",
@@ -490,9 +499,10 @@
         "gameTitle": "Master Chess"
     },
     "stack": {
-        "pageMapping": "/0/g/html/stack/",
+        "pageMapping": "/stack/",
         "imageSrc": "/game/img/stack.png",
-        "gameTitle": "Stack"
+        "gameTitle": "Stack",
+        "usecdn": true
     },
     "drift-hunters": {
         "pageMapping": "https://topvazstore.github.io/g/drift-hunters/",
@@ -523,9 +533,10 @@
         "gameTitle": "Nut Simulator [Hacked]"
     },
     "circle": {
-        "pageMapping": "/0/g/html/circle/",
+        "pageMapping": "/circle/",
         "imageSrc": "/game/img/circle.png",
-        "gameTitle": "Circle"
+        "gameTitle": "Circle",
+        "usecdn": true
     },
     "bouncy-basketball": {
         "pageMapping": "/0/g/bouncybasketball/",
@@ -588,19 +599,22 @@
         "gameTitle": "Alien Hominid"
     },
     "paperio-2": {
-        "pageMapping": "/0/g/paperio2/",
+        "pageMapping": "/paperio2/",
         "imageSrc": "/game/img/paperio-2.avif",
-        "gameTitle": "Paper.io 2"
+        "gameTitle": "Paper.io 2",
+        "usecdn": true
     },
     "paperio-3d": {
-        "pageMapping": "/0/g/paperio3d/",
+        "pageMapping": "/paperio3d/",
         "imageSrc": "/game/img/paperio-3d.jpg",
-        "gameTitle": "Paper.io 3D"
+        "gameTitle": "Paper.io 3D",
+        "usecdn": true
     },
     "flappy-bird": {
-        "pageMapping": "/0/g/flappybird/",
+        "pageMapping": "/flappybird/",
         "imageSrc": "/game/img/flappy-bird.png",
-        "gameTitle": "Flappy Bird"
+        "gameTitle": "Flappy Bird",
+        "usecdn": true
     },
     "demolition-derby-3": {
         "pageMapping": "/0/g/demolition-derby-3/",

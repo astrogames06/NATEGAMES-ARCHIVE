@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const gameThumbnail = document.getElementById("game-thumb");
     const loading = document.getElementById("loading-screen");
     const loadingText = document.getElementById("loading-text");
-    const nateLogo = document.getElementById("nates-logo");
     const gameLoader = document.getElementById("game-loader");
     const adPreloader = document.getElementById("ad_preloader");
 
@@ -67,22 +66,17 @@ document.addEventListener("DOMContentLoaded", function () {
           adPreloader.style.display = "block";
           loading.style.display = "none";
           showAd();
-        }, 2000);
+        }, 1500);
         setTimeout(() => {
-          loadingText.textContent = "Preparing your game...";
+          loadingText.textContent = "Parsing code...";
           iframe.style.backgroundColor = "#171717";
         }, 250);
         setTimeout(() => {
-          loadingText.textContent = "Parsing code...";
-        }, 750);
-        setTimeout(() => {
-          loadingText.textContent = "Successful! ✅";
-          loadingText.style.color = "#42f57e";
-        }, 1500);
+          loadingText.textContent = "Happy Halloween! 🎃";
+          loadingText.style.color = "#ff8c33";
+        }, 1000);
         loading.style.display = "block";
-        loadingText.textContent = "Downloading game...";
-        nateLogo.style.height = "20px";
-        nateLogo.style.verticalAlign = "middle";
+        loadingText.textContent = "Downloading...";
         gameLoader.style.display = "none";
       }
     });

@@ -45,7 +45,7 @@
   },
   {
     "url": "/game/?cluster-rush",
-    "imageSrc": "https://raw.githubusercontent.com/OutRed/outred-assets-cdn.outred.org/main/cluster-rush/splash.png",
+    "imageSrc": "/game/img/cluster-rush.png",
     "name": "Cluster Rush",
     "tags": "kids, fun, adventure, action, unity, singleplayer",
     "hotGame": true
@@ -477,7 +477,7 @@
   },
   {
     "url": "/game/?doge-miner",
-    "imageSrc": "./doge-miner/ymzwlane.bmp",
+    "imageSrc": "/game/img/doge-miner.bmp",
     "name": "Doge Miner",
     "tags": "kids, fun, clicker"
   },
