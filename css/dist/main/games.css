@@ -1,18 +1,16 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("./home.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
 
+html,
 body {
   user-select: none;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
   background-color: #171717;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   color: #fff;
+  max-width: 100%;
 }
 
 .header {
@@ -24,9 +22,8 @@ body {
   align-items: center;
   position: relative;
   top: 0;
-  z-index: calc(9997);
+  z-index: 9999;
   box-shadow: 0px 0px 7px #000;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -42,7 +39,6 @@ body {
   vertical-align: middle;
   height: 25px;
   margin: 0 5px 0 0;
-  padding: -1 -1 -1;
   overflow: hidden;
   transition: all 0.3s;
   border-radius: 25%;
@@ -59,7 +55,7 @@ body {
   border-radius: 8px;
   cursor: pointer;
   transition: 0.15s;
-  font-family: "Lato", "Roboto", Arial, Helvetica, sans-serif;
+  font-family: var(--font-family-2);
   background: transparent;
   outline: none !important;
   cursor: pointer;
@@ -343,15 +339,20 @@ h1 {
 .footer-content {
   position: relative;
   border-radius: 10px 10px 0 0;
-  z-index: 9998;
+  z-index: 9997;
   bottom: 0;
   font-size: 12px;
-  padding: 25px 0;
+  padding: 10px 0;
   width: 100%;
   background-color: #111;
   color: white;
   text-align: center;
   display: inline-block;
+}
+
+.footer-content.home {
+  position: absolute;
+  background-color: #0d0d0d;
 }
 
 footer a {
@@ -477,6 +478,7 @@ footer a:hover::after {
 }
 .image-container #hot_game::before {
   content: "HOT";
+  font-family: var(--font-family);
   position: absolute;
   display: inline-block;
   height: 15px;
@@ -495,6 +497,7 @@ footer a:hover::after {
 
 .image-container #new_game::before {
   content: "NEW!";
+  font-family: var(--font-family);
   position: absolute;
   display: inline-block;
   height: 15px;
@@ -527,3 +530,143 @@ footer a:hover::after {
   transform: scale(1);
 }
 
+/* Home start */
+.welcome-message {
+  font-size: 19px;
+  cursor: pointer;
+  font-family: var(--font-family-3);
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 19px;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.welcome-message i {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 0;
+  width: 3px;
+  height: 8px;
+  background: red;
+  opacity: 0;
+}
+
+@keyframes bang {
+  from {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -4px;
+  margin-bottom: 0;
+}
+
+.button-container {
+  margin: 0 -3px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: px;
+}
+
+.content h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.iframe-container iframe {
+  border: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.wave {
+  bottom: 0%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.wave iframe {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url("../img/bg.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*Discord Button*/
+
+.bn39 {
+  background-image: linear-gradient(135deg, #008aff, #86d472);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 150px;
+  z-index: 2;
+}
+
+.bn39:hover {
+  color: #fff;
+}
+
+.bn39 .bn39span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn39:hover .bn39span {
+  background: transparent;
+}
+
+/*Patch Notes text*/
+
+.txt49 {
+  color: #0051ff;
+  font-family: var(--font-family);
+  text-decoration: none;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+
+.p29 {
+  color: white;
+  font-size: 17px;
+}
+
+/* Home end */

@@ -2,6 +2,7 @@ var allowedDomains = [
   "https://nate-games.xyz",
   "https://www.nate-games.xyz",
   "http://localhost:8080",
+  "https://nates-cdn.pages.dev",
 ];
 
 // adblock detector start
@@ -74,3 +75,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
     stickyNav.style.position = "relative";
   }
 });
+
+// secret alert start not really a secret lol
+let sequence = [];
+
+document.addEventListener("keydown", function (event) {
+  sequence.push(event.key);
+
+  if (sequence.join("") === "nate-bread") { 
+    alert("Mustangs Rule! (the horse not car), also how did you find this? \n\n -breadghoti"); // quotes should work in the alert bc of the single quote
+    sequence = [];
+  }
+});
+
+// secret alert end

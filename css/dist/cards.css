@@ -4,14 +4,15 @@
   justify-content: center;
   gap: 20px;
   padding-top: 10%;
- }
- 
- .cards {
-  background-color: #2a2a2a;
-  border-radius: 10px;
+  font-family: var(--font-family);
+}
+
+.cards {
+  background-color: #222;
+  border-radius: 8px;
   padding: 20px;
   width: 400px;
-  transition: 0.2s ease-in-out;
+  border-bottom: solid #fff;
 }
 
 .cards h3 {
@@ -37,11 +38,11 @@
   width: 50%;
 }
 
-.visit-button {
-  background-color: #222;
+.cards-button {
+  background-color: #171717;
   color: white;
   padding: 10px;
   display: inline-block;
   border-radius: 5px;
-  font-family: 'Lato', 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: var(--font-family-2);
 }
