@@ -63,13 +63,6 @@
     "tags": "kids, fun, unity"
   },
   {
-    "url": "https://play.geforcenow.com/",
-    "imageSrc": "/game/img/fortnite.png",
-    "name": "Fortnite",
-    "tags": "action, shooting",
-    "requiresProxy": true
-  },
-  {
     "url": "/game/?subway-surfers",
     "imageSrc": "/game/img/subway-surfers.jpg",
     "name": "Subway Surfers",
@@ -1190,8 +1183,7 @@
     "url": "/game/?tiny-yurts",
     "imageSrc": "/game/img/tiny-yurts.webp",
     "name": "Tiny Yurts",
-    "tags": "tycoon, kids, singleplayer",
-    "newGame": true
+    "tags": "tycoon, kids, singleplayer"
   },
   {
     "name": "Stick Defenders",
