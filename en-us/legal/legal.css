@@ -4,10 +4,10 @@
 
 html,
 body {
-  font-family: "Roboto", "Lato", Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
   user-select: none;
-  color: #494949;
-  background-color: #fff;
+  color: #fff;
+  background-color: #171717;
   font-size: 12.5px;
   letter-spacing: 0.25px;
 }
@@ -37,8 +37,4 @@ footer {
   bottom: 0;
   position: absolute;
   width: 100%;
-}
-
-.footer-content {
-  background-color: #222;
 }
