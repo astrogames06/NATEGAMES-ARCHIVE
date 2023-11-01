@@ -1,13 +1,3 @@
-html,
-body {
-  user-select: none;
-  margin: 0;
-  padding: 0;
-  background-color: #171717;
-  color: #fff;
-  max-width: 100%;
-}
-
 .header {
   background-color: #0f0f0f;
   color: #fff;
@@ -24,6 +14,12 @@ body {
 .menu {
   display: flex;
   gap: 2px;
+}
+
+.menu-item.search-button {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.2s;
 }
 
 .menu-item {

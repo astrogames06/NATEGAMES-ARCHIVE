@@ -1,9 +1,5 @@
 /*by https://codepen.io/marcwiethe/pen/JprZvJ modified a bit by nate-games*/
 
-html, body {
-  width: 100vw;
-  height: 100vh;
-}
 .tooltip {
   display: inline-flex;
 }

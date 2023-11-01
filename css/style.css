@@ -11,13 +11,31 @@
 @import url("./dist/main/games.css");
 @import url("./dist/animations.css");
 
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: var(--font-family);
+  user-select: none;
+  background-color: #171717;
+  color: #fff;
+}
+
+html.light body, html {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: var(--font-family);
+  user-select: none;
+  background-color: #fff;
+  color: #171717;
+}
 a {
   color: var(--creative-blue);
   text-decoration: none;
 }
 
 :root {
-  font-family: var(--font-family);
   --font-family: "Roboto", "Inter", "Source Sans Pro", "Lato", "Open Sans",
     Arial, Helvetica, sans-serif;
   --font-family-2: "Lato", "Open Sans", "Roboto", "Inter", "Source Sans Pro",
@@ -27,7 +45,10 @@ a {
   --creative-blue: #4287f5;
   --light-blue: #6499ff;
   --logo: url("/favicon.ico");
-  -webkit-font-smoothing: antialiased;
+}
+
+.red {
+  color: red;
 }
 
 .menu-item.root strong {
