@@ -4,14 +4,12 @@
 <head>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="icon" type="image/png" href="/favicon.ico">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/error.css">
-  <link rel="icon" href="/favicon.ico">
-  <title>404 | Page not found</title>
+  <title>Settings | nate-games</title>
 </head>
 
 <body>
-  <iframe src="" frameborder="0" id="game-id" style="display: none;"></iframe>
   <div class="header">
     <a href="/">
       <button class="menu-item root">
@@ -92,93 +90,84 @@
     </nav>
   </div>
 
-  <div class="container2">
-    <div class="container">
-      <h2>404 | Page not found.</h2>
-      <p>Sorry, The URL <span id="path"></span> was <br> not found on this server or you don't have access.</p>
-      <a class="buttons" href="/">Home</a>
-      <a class="buttons" href="/0/g/">Games</a><br><br>
-      <a class="sfn" onclick="statsForNerds()">Stats for nerds <span class="material-symbols-outlined"
-          style="vertical-align: middle; font-size: 20px;">
-          bug_report
-        </span></a>
+  <div class="card-container">
 
-      <div id="sfn" class="message">
-        <br>
-        <b>Screen height:</b> <span id="height">Fetching...</span><br />
-        <b>Screen width:</b> <span id="width">Fetching...</span><br />
-        <b>Window height:</b> <span id="winheight">Fetching...</span><br />
-        <b>Window width:</b> <span id="winwidth">Fetching...</span><br />
-        <b>Cookies Enabled:</b> <span id="cookie">Fetching...</span><br />
-        <b>User's IP:</b> <span id="displayIP">Fetching...</span><br />
-      </div>
+    <div class="cards">
+      <h3>Custom Title and Favicon
+      </h3>
+      <p>Customize the Title and Favicon</p>
+      <input id="title" class="nice-input" placeholder="Title" onkeyup="setTitle(this.value)">
+      <input id="icon" class="nice-input" placeholder="Favicon" onkeyup="setFavicon(this.value.trim())">
+      <a onclick="resetTab()" class="cards-button" style="cursor: pointer;">Reset</a><br><br>
+      <h3>Presets</h3>
+      <select>
+        <option value="0" onclick="resetTab()">Default</option>
+        <option value="1" onclick="setTitle(title = 'Classes'); setFavicon('/game/class.png')">Classroom</option>
+        <option value="2" onclick="setTitle(title = 'Classlink'); setFavicon('/game/classlink.png')">Classlink</option>
+        <option value="3" onclick="setTitle(title = 'Canvas'); setFavicon('/game/canvas.ico')">Canvas</option>
+      </select>
+      </p>
+    </div>
 
-      <script>
-        // Credits 3kh0, some changes were made
-        function statsForNerds() {
-          var x = document.getElementById("sfn");
-          if (x.style.display === "none") {
-            x.style.display = "block";
-          } else {
-            x.style.display = "none";
-          }
-        }
-        document.getElementById("height").innerHTML = screen.height + "px";
-        document.getElementById("width").innerHTML = screen.width + "px";
-        document.getElementById("winheight").innerHTML =
-          window.innerHeight + "px";
-        document.getElementById("winwidth").innerHTML = window.innerWidth + "px";
-        document.getElementById("cookie").innerText = navigator.cookieEnabled;
+    <div class="cards">
+      <h3>Hide Bar
+      </h3>
+      <p>Automatically hide bar on the game page</p>
+      <label class="switch">
+        <input type="checkbox" id="hidebar_switch">
+        <span class="slider"></span>
+      </label>
+    </div>
 
-        function fetchText() {
-          fetch('https://ip.nate-games.xyz')
-            .then(response => response.text())
-            .then(data => {
-              document.getElementById('displayIP').textContent = data;
-            })
-            .catch(error => {
-              console.error('Error fetching text:', error);
-            });
-        }
-        fetchText();
-      </script>
+    <div class="cards">
+      <h3>Website Language
+      </h3>
+      <p>Dynamically change the website's language globally.</p>
+
+      <div id="google_translate_element"></div>
+    </div>
+
+    <div class="cards">
+      <h3>Sticky navigation
+      </h3>
+      <p>Make the navigation bar stick to the top of the screen.</p>
+      <label class="switch">
+        <input type="checkbox" id="stickyNavigation_switch">
+        <span class="slider"></span>
+      </label>
+
+      <hr>
+      <h3>Sticky search-bar - Quality Feature</h3>
+      <p>Would you also want to enable sticky search-bar? (Coming Soon)</p>
+      <label class="checkbox-container">
+        <input class="custom-checkbox" checked="" type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+
+
+    </div>
+
+    <div class="cards">
+      <h3>Panic Key (Coming soon)</h3>
+      <p>In class or realized you're off-topic? Set a website to go to using your <b>Panic Key</b>.</p>
+      <input class="nice-input" id="panic-key-input" placeholder="Panic Key">
+      <input class="nice-input" id="url-input" placeholder="URL">
+      <a class="cards-button" style="cursor: pointer;" onclick="savePanicKeyAndURL()">Save</a>
+    </div>
+
+    <div class="cards">
+      <h3>about:blank Preview
+      </h3>
+      <p>Open the website in about:blank</p>
+      <label class="switch">
+        <input type="checkbox" id="open_blank">
+        <span class="slider"></span>
+      </label>
 
     </div>
   </div>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      let path = window.location.pathname;
-
-      if (window !== window.parent) {
-        path = window.parent.location.pathname;
-      }
-
-      document.getElementById('path').textContent = path;
-    });
-  </script>
-  <script>
-    function getParameterByName(name) {
-      const url = new URL(window.location.href);
-      return url.searchParams.get(name);
-    }
-
-    function hideElementById(elementId) {
-      const element = document.getElementById(elementId);
-      if (element) {
-        element.style.display = 'none';
-      }
-    }
-
-    const elementToHide = getParameterByName('hide');
-
-    if (elementToHide) {
-      hideElementById(elementToHide);
-    }
-
-  </script>
-  <script src="/js/iframe_referer.js"></script>
-  <script src="/js/sw.js"></script>
   <script src="/js/editor.js"></script>
+  <script src="/js/sw.js"></script>
 </body>
 
 </html>

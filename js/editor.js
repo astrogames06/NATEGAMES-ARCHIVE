@@ -81,19 +81,36 @@ function openBlank() {
   win.document.body.appendChild(iframe);
 }
 
-const switches = document.getElementById("stickyNavigation_switch");
+const stickynavSwitch = document.getElementById("stickyNavigation_switch");
 
 if (window.localStorage.getItem("stickyNavbar") != "") {
   if (window.localStorage.getItem("stickyNavbar") == "true") {
-    switches.checked = true;
+    stickynavSwitch.checked = true;
   } else {
-    switches.checked = false;
+    stickynavSwitch.checked = false;
   }
 }
-switches.addEventListener("change", (event) => {
+stickynavSwitch.addEventListener("change", (event) => {
   if (event.currentTarget.checked) {
     window.localStorage.setItem("stickyNavbar", "true");
   } else {
     window.localStorage.setItem("stickyNavbar", "false");
+  }
+});
+
+const hidebarSwitch = document.getElementById("hidebar_switch");
+
+if (window.localStorage.getItem("autohidebar") != "") {
+  if (window.localStorage.getItem("autohidebar") == "true") {
+    hidebarSwitch.checked = true;
+  } else {
+    hidebarSwitch.checked = false;
+  }
+}
+hidebarSwitch.addEventListener("change", (event) => {
+  if (event.currentTarget.checked) {
+    window.localStorage.setItem("autohidebar", "true");
+  } else {
+    window.localStorage.setItem("autohidebar", "false");
   }
 });

@@ -211,12 +211,6 @@
     "tags": "html5, kids, action, point-and-click"
   },
   {
-    "url": "/0/g/AngryBirdsRadox/",
-    "imageSrc": "./AngryBirdsRadox/game/splash.png",
-    "name": "Angry Birds Radox",
-    "tags": "html5, kids, action, point-and-click"
-  },
-  {
     "url": "./AngryBirdsWebGL/",
     "imageSrc": "https://static.wikia.nocookie.net/angrybirds/images/b/bd/AB_Reloaded_Icon.png",
     "name": "Angry Birds (WebGL)",
@@ -391,10 +385,10 @@
     "tags": "construct"
   },
   {
-    "url": "./fnaf/",
-    "imageSrc": "./fnaf/game/splash.jpg",
+    "url": "/game/?fnaf",
+    "imageSrc": "/game/img/fnaf.jpg",
     "name": "FNAF",
-    "tags": "fnaf, scratch, horror"
+    "tags": "fnaf, html5, horror"
   },
   {
     "url": "./fnaf-webgl/",
@@ -433,15 +427,9 @@
     "tags": "fnaf, scratch, horror"
   },
   {
-    "url": "https://drive.google.com/file/d/1fe7lRYUed41rEim3aB_ml528_IwG11Pc/view",
+    "url": "/0/g/fnaf-5/",
     "imageSrc": "https://play-lh.googleusercontent.com/u9wx5aNNV6Yn4sJpi7uPBiElRnfAp1zUrn8Xqb4Dx_WBoOPHlB6G6gaYLI-mEXyABPnz",
     "name": "FNAF: Sister Location",
-    "tags": "other, fnaf, download, unblocked"
-  },
-  {
-    "url": "./fnaf-5/",
-    "imageSrc": "fnaf-5/splash.jpeg",
-    "name": "FNAF 5 Scratch",
     "tags": "fnaf, scratch, horror"
   },
   {
@@ -449,12 +437,6 @@
     "imageSrc": "fnaf-fp/splash.jpg",
     "name": "FNAF Final Purgatory",
     "tags": "fnaf, unity, horror"
-  },
-  {
-    "url": "./fnafweb/",
-    "imageSrc": "./fnafweb/game/pj0cyls4.bmp",
-    "name": "FNAF Web",
-    "tags": "fnaf, html5, horror"
   },
   {
     "url": "./cookieclicker/",
@@ -540,6 +522,13 @@
     "imageSrc": "https://play-lh.googleusercontent.com/jrRzz98Tb0JK1XuO0Yw01Ep1zVQDM14IDl4fq21nMpmt7yAXfXwSF0xlc60Hv_FUAx79",
     "name": "Dumb ways to Die",
     "tags": "unity, intense, singleplayer, action, point-and-click"
+  },
+  {
+    "url": "/game/?10-minutes-till-dawn",
+    "imageSrc": "/game/img/10-minutes-till-dawn.png",
+    "name": "10 Minutes Till Dawn",
+    "tags": "unity, point-and-click",
+    "newGame": true
   },
   {
     "url": "/game/?pizza-tower",
@@ -694,32 +683,32 @@
     "tags": "nintendo-ds, intense, fun, tower-defense, original"
   },
   {
-    "url": "./BloonsTD/",
-    "imageSrc": "./BloonsTD/game/splash.webp",
+    "url": "/game/?btd",
+    "imageSrc": "/game/img/btd.webp",
     "name": "BTD",
     "tags": "flash, tower-defense, ninjakiwi"
   },
   {
-    "url": "./BloonsTD2/",
-    "imageSrc": "./BloonsTD2/game/splash.webp",
+    "url": "/game/?btd2",
+    "imageSrc": "/game/img/btd2.webp",
     "name": "BTD 2",
     "tags": "flash, tower-defense, ninjakiwi"
   },
   {
-    "url": "./BloonsTD3/",
-    "imageSrc": "./BloonsTD3/game/splash.webp",
+    "url": "/game/?btd3",
+    "imageSrc": "/game/img/btd3.webp",
     "name": "BTD 3",
     "tags": "flash, tower-defense, ninjakiwi, btd, bloons"
   },
   {
-    "url": "./BloonsTD4/",
-    "imageSrc": "./BloonsTD4/game/splash.jpg",
+    "url": "/game/?btd4",
+    "imageSrc": "/game/img/btd4.jpg",
     "name": "BTD 4",
     "tags": "flash, tower-defense, ninjakiwi, btd, bloons"
   },
   {
-    "url": "./BloonsTD5/",
-    "imageSrc": "./BloonsTD5/game/splash.webp",
+    "url": "/game/?btd5",
+    "imageSrc": "/game/img/btd5.webp",
     "name": "BTD 5",
     "tags": "flash, tower-defense, ninjakiwi, btd, bloons"
   },
@@ -779,8 +768,8 @@
     "name": "OvO 2"
   },
   {
-    "url": "/0/g/ovo3/",
-    "imageSrc": "./ovo3/game/splash.avif",
+    "url": "/game/?ovo3",
+    "imageSrc": "/game/img/ovo3.avif",
     "name": "OvO 3 - Dimensions"
   },
   {
@@ -920,8 +909,8 @@
     "name": "Neon Tower"
   },
   {
-    "url": "./backrooms/",
-    "imageSrc": "./backrooms/game/img/splash.jpg",
+    "url": "/game/?backrooms",
+    "imageSrc": "/game/img/backrooms.jpg",
     "name": "BACKROOMS"
   },
   {
@@ -1238,5 +1227,11 @@
     "imageSrc": "/game/img/wings-io.png",
     "url": "/game/?wings.io",
     "tags": "kids, fun, adventure, action, html5, multiplayer"
+  },
+  {
+    "name": "3d.city",
+    "imageSrc": "/game/img/3d-city.jpg",
+    "url": "/game/?3d-city",
+    "newGame": true
   }
 ]

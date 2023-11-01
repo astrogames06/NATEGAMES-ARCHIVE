@@ -36,15 +36,18 @@ document.addEventListener("DOMContentLoaded", function () {
           const gameTitle = queryParamsData.gameTitle;
           const gameDesc = queryParamsData.description;
           const imageSrc = queryParamsData.imageSrc;
-          var usescdn = queryParamsData.usecdn;
+          const usescdn = queryParamsData.usecdn;
+          const usegithack = queryParamsData.usegithack;
 
           if (pageMapping) {
             if (usescdn) {
               iframeSrc = config.cdn + pageMapping;
+            } else if (usegithack) {
+              iframeSrc = config.gitcdn + pageMapping;
             } else {
               iframeSrc = pageMapping;
             }
-          }
+          }          
 
           changeText(gameTitle);
           changeDescription(gameDesc);
@@ -56,78 +59,94 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
           changeText("Error fetching json");
         }
+        playButton.addEventListener("click", function () {
+          if (iframeSrc) {
+            setTimeout(() => {
+              adPreloader.style.display = "block";
+              loading.style.display = "none";
+              showAd();
+            }, 1500);
+            setTimeout(() => {
+              loadingText.textContent = "Parsing code...";
+              iframe.style.backgroundColor = "#171717";
+            }, 250);
+            setTimeout(() => {
+              loadingText.textContent = "Happy Halloween! 🎃";
+              loadingText.style.color = "#ff8c33";
+            }, 1000);
+            loading.style.display = "block";
+            loadingText.textContent = "Downloading...";
+            gameLoader.style.display = "none";
+          }
+        });
+        let adSkipped = false;
+        function showAd() {
+          const IframeAd = document.getElementById("iframe_ad");
+          const adContent = document.getElementById("ad_content");
+          const adPreContent = document.getElementById("preload_ad-content");
+          const gameImg = document.getElementById("game-thumb").src;
+          const gameThumb = document.getElementById("ad_game-thumb");
+          const skipcountContainer = document.getElementById(
+            "skip_count-container"
+          );
+          gameThumb.src = gameImg;
+          gameThumb.style.objectFit = "cover";
+          adContent.style.display = "block";
+          const skipButton = document.getElementById("skipButton");
+          const skipCount = document.getElementById("skipCount");
+          const skipAllow = document.getElementById("skipAllow");
+          adPreContent.style.display = "none"; // https://www.w3schools.com/tags/av_event_canplaythrough.asp
+          IframeAd.src = config.ads;
+          skipButton.style.padding = "0";
+          setTimeout(() => {
+            skipButton.addEventListener("click", skipAd);
+            skipcountContainer.style.display = "none";
+            skipcountContainer.style.opacity = "0";
+            skipAllow.style.display = "block";
+            skipButton.style.padding = "10px 17px";
+          }, 3000);
+          setTimeout(() => {
+            skipCount.textContent = "2";
+          }, 1000);
+          setTimeout(() => {
+            skipCount.textContent = "1";
+          }, 2000);
+          if (!adSkipped) {
+            setTimeout(skipAd, 10000); // https://www.w3schools.com/tags/av_prop_duration.asp
+          }
+        }
+        function skipAd() {
+          if (!adSkipped) {
+            adSkipped = true;
+            const IframeAd = document.getElementById("iframe_ad");
+            const adContent = document.getElementById("ad_content");
+            iframe.src = iframeSrc;
+            iframe.style.display = "block";
+            iframe.style.zIndex = "1";
+            adContent.style.display = "none";
+            IframeAd.src = null;
+            if (queryParamsData.eduNotice === true) {
+              const notice = document.getElementById("notice");
+              const closeNotice = document.getElementById("close-notice");
+              const noticeText = document.getElementById("notice-text");
+              const noticeType = document.getElementById("notice-type");
+              iframe.style.filter = "blur(10px)";
+              closeNotice.addEventListener("click", CloseNotice);
+              notice.style.display = "inline-block";
+              noticeText.textContent =
+                "This game was made for educational purposes only! We are not permitted to liability and or, at any condition you are required to contact us with a copyright notice.";
+              noticeType.textContent = "fair use";
+            }
+            function CloseNotice() {
+              iframe.style.filter = "blur(0px)";
+              notice.style.display = "none";
+            }
+          }
+        }
       })
       .catch((error) => {
         console.error("Error fetching json data", error);
       });
-    playButton.addEventListener("click", function () {
-      if (iframeSrc) {
-        setTimeout(() => {
-          adPreloader.style.display = "block";
-          loading.style.display = "none";
-          showAd();
-        }, 1500);
-        setTimeout(() => {
-          loadingText.textContent = "Parsing code...";
-          iframe.style.backgroundColor = "#171717";
-        }, 250);
-        setTimeout(() => {
-          loadingText.textContent = "Happy Halloween! 🎃";
-          loadingText.style.color = "#ff8c33";
-        }, 1000);
-        loading.style.display = "block";
-        loadingText.textContent = "Downloading...";
-        gameLoader.style.display = "none";
-      }
-    });
-    let adSkipped = false;
-    function showAd() {
-      const IframeAd = document.getElementById("iframe_ad");
-      const adContent = document.getElementById("ad_content");
-      const adPreContent = document.getElementById("preload_ad-content");
-      const gameImg = document.getElementById("game-thumb").src;
-      const gameThumb = document.getElementById("ad_game-thumb");
-      const skipcountContainer = document.getElementById(
-        "skip_count-container"
-      );
-      gameThumb.src = gameImg;
-      gameThumb.style.objectFit = "cover";
-      adContent.style.display = "block";
-      const skipButton = document.getElementById("skipButton");
-      const skipCount = document.getElementById("skipCount");
-      const skipAllow = document.getElementById("skipAllow");
-      adPreContent.style.display = "none"; // https://www.w3schools.com/tags/av_event_canplaythrough.asp
-      IframeAd.src = config.ads;
-      skipButton.style.padding = "0";
-      setTimeout(() => {
-        skipButton.addEventListener("click", skipAd);
-        skipcountContainer.style.display = "none";
-        skipcountContainer.style.opacity = "0";
-        skipAllow.style.display = "block";
-        skipButton.style.padding = "10px 17px";
-      }, 3000);
-      setTimeout(() => {
-        skipCount.textContent = "2";
-      }, 1000);
-      setTimeout(() => {
-        skipCount.textContent = "1";
-      }, 2000);
-      if (!adSkipped) {
-        setTimeout(skipAd, 10000); // https://www.w3schools.com/tags/av_prop_duration.asp
-      }
-    }
-    function skipAd() {
-      if (!adSkipped) {
-        adSkipped = true;
-        const IframeAd = document.getElementById("iframe_ad");
-        const adContent = document.getElementById("ad_content");
-        iframe.src = iframeSrc;
-        iframe.style.display = "block";
-        iframe.style.zIndex = "1";
-        adContent.style.display = "none";
-        IframeAd.src = null;
-      }
-    }
 
     function changeText(dynamicText) {
       document.getElementById("game-title").textContent =
@@ -243,6 +262,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+// Load autohidebar start
+document.addEventListener("DOMContentLoaded", function (event) {
+  if (window.localStorage.getItem("autohidebar") == "true") {
+    hidebar();
+  } else {
+    showbar();
+  }
+});
+// Load autohidebar end
 
 function hidebar() {
   const Likes = document.querySelector(".likes");

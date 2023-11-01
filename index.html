@@ -17,18 +17,14 @@
 </head>
 
 <body>
-  <div class="wave">
-    <iframe src="/en-us/retro/" frameborder="0"></iframe>
-  </div>
-  <header class="header">
-    <div class="logo">
-      <button class="home-menu-item btn41-43 btn-41" onclick="window.location.href='/'" class="title">
-        <img src="/favicon.ico" class="nav-icon" />
-        <strong>nate-games</strong>
+  <div class="header">
+    <a href="/">
+      <button class="menu-item root">
+        <strong><img src="/favicon.ico"> nate-games</strong>
       </button>
-    </div>
+    </a>
     <nav class="menu">
-      <a href="/en-us/settings/">
+      <a href="/settings">
         <button class="menu-item">
           <i class="fa-solid fa-gear"></i> Settings
         </button>
@@ -43,25 +39,25 @@
           <i class="fa-solid fa-dragon"></i>Categories
         </button>
         <div class="dropdown-content">
-          <a href="/0/g/#clicker">Clicker |
+          <a href="/0/g/?tags=clicker">Clicker |
             <i class="fa-solid fa-arrow-pointer"></i> <i class="fa-solid fa-hand-pointer"></i></a>
-          <a href="/0/g/#shooting">Shooting |
+          <a href="/0/g/?tags=shooting">Shooting |
             <i class="fa-solid fa-gun"></i></a>
-          <a href="/0/g/#point-and-click">Point & Click | <i class="fa-solid fa-computer-mouse"></i></a>
-          <a href="/0/g/#action">Action | <i class="fa-solid fa-burst"></i></a>
-          <a href="/0/g/#kids">Kids | <i class="fa-solid fa-child-reaching"></i></a>
+          <a href="/0/g/?tags=point-and-click">Point & Click | <i class="fa-solid fa-computer-mouse"></i></a>
+          <a href="/0/g/?tags=action">Action | <i class="fa-solid fa-burst"></i></a>
+          <a href="/0/g/?tags=kids">Kids | <i class="fa-solid fa-child-reaching"></i></a>
           <span style="
                   border-top: 2px solid #222;
                   border-bottom: 2px solid #222;
                   border-radius: 0;
-                "><b>Game engines <i class="fa-solid fa-dice-d6"></i></b></span>
-          <a href="/0/g/#html5">HTML5 |
+                "><b>Game engines</b></span>
+          <a href="/0/g/?tags=html5">HTML5 |
             <img src="/img/svg/html5.svg" style="vertical-align: middle; height: 14px" /></a>
-          <a href="/0/g/#unity">Unity |
+          <a href="/0/g/?tags=unity">Unity |
             <img src="/img/svg/unity.svg" style="vertical-align: middle; height: 14px" /></a>
-          <a href="/0/g/#flash">Flash |
+          <a href="/0/g/?tags=flash">Flash |
             <img src="/img/svg/adobe-flash.svg" style="vertical-align: middle; height: 14px" /></a>
-          <a href="/0/g/#scratch">Scratch |
+          <a href="/0/g/?tags=scratch">Scratch |
             <img src="/img/svg/scratch.svg" style="vertical-align: middle; height: 14px" /></a>
         </div>
       </div>
@@ -75,7 +71,7 @@
           <i class="fa-solid fa-dice-d6"></i> Emulator
         </button>
       </a>
-      <a href="/en-us/projects/">
+      <a href="/projects">
         <button class="menu-item">
           <i class="fa-solid fa-paper-plane"></i> Projects
         </button>
@@ -91,15 +87,164 @@
         </button>
         <div class="dropdown-content" style="right: 0; min-width: 180px">
           <a href="https://discord.gg/9mJcqwZ2a5" target="_blank">Join the Discord | 💬</a>
-          <a href="/en-us/contact" target="_blank">Contact | 📝</a>
+          <a href="/contact" target="_blank">Contact | 📝</a>
           <a href="https://github.com/nate-games/nate-games.xyz" target="_blank">GitHub |
-            <img src="/img/svg/github.svg" style="vertical-align: middle; height: 25px" /></a>
-          <a href="https://github.com/nate-games/nate-games.xyz" target="_blank">Sponsor |
-            <img src="/img/svg/sponsor.svg" class="sponsor" /></a>
+            <i class="fa-brands fa-github"></i></a>
+          <a href="/sponsor" target="_blank">Sponsor |
+            <i class="fa-regular fa-heart" style="color: #eb4034;"></i></a>
         </div>
       </div>
     </nav>
-  </header>
+  </div>
+  
+  <div class="retro">
+    <link rel="stylesheet" href="/en-us/retro/bg.css">
+    <div id="retrobg">
+      <div id="retrobg-sky">
+        <div id="retrobg-stars">
+          <div class="retrobg-star" style="left:  5%; top: 55%; transform: scale( 2 );"></div>
+          <div class="retrobg-star" style="left:  7%; top:  5%; transform: scale( 2 );"></div>
+          <div class="retrobg-star" style="left: 10%; top: 45%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 12%; top: 35%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 15%; top: 39%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 20%; top: 10%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 35%; top: 50%; transform: scale( 2 );"></div>
+          <div class="retrobg-star" style="left: 40%; top: 16%; transform: scale( 2 );"></div>
+          <div class="retrobg-star" style="left: 43%; top: 28%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 45%; top: 30%; transform: scale( 3 );"></div>
+          <div class="retrobg-star" style="left: 55%; top: 18%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 60%; top: 23%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 62%; top: 44%; transform: scale( 2 );"></div>
+          <div class="retrobg-star" style="left: 67%; top: 27%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 75%; top: 10%; transform: scale( 2 );"></div>
+          <div class="retrobg-star" style="left: 80%; top: 25%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 83%; top: 57%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 90%; top: 29%; transform: scale( 2 );"></div>
+          <div class="retrobg-star" style="left: 95%; top:  5%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 96%; top: 72%; transform: scale( 1 );"></div>
+          <div class="retrobg-star" style="left: 98%; top: 70%; transform: scale( 3 );"></div>
+        </div>
+        <div id="retrobg-sunWrap">
+          <div id="retrobg-sun"></div>
+        </div>
+        <div id="retrobg-mountains">
+          <div id="retrobg-mountains-left" class="retrobg-mountain"></div>
+          <div id="retrobg-mountains-right" class="retrobg-mountain"></div>
+        </div>
+        <div id="retrobg-cityWrap">
+          <div id="retrobg-city">
+            <div style="left:  4.0%; height: 20%; width: 3.0%;" class="retrobg-building"></div>
+            <div style="left:  6.0%; height: 50%; width: 1.5%;" class="retrobg-building"></div>
+            <div style="left:  8.0%; height: 25%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 12.0%; height: 30%; width: 3.0%;" class="retrobg-building"></div>
+            <div style="left: 13.0%; height: 55%; width: 3.0%;" class="retrobg-building retrobg-antenna"></div>
+            <div style="left: 17.0%; height: 20%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 18.5%; height: 70%; width: 1.5%;" class="retrobg-building"></div>
+            <div style="left: 20.0%; height: 30%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 21.5%; height: 80%; width: 2.0%;" class="retrobg-building retrobg-antenna"></div>
+            <div style="left: 25.0%; height: 60%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 28.0%; height: 40%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 30.0%; height: 70%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 35.0%; height: 65%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
+            <div style="left: 38.0%; height: 40%; width: 3.0%;" class="retrobg-building"></div>
+            <div style="left: 42.0%; height: 60%; width: 2.0%;" class="retrobg-building"></div>
+            <div style="left: 43.0%; height: 85%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
+            <div style="left: 45.0%; height: 40%; width: 3.0%;" class="retrobg-building"></div>
+            <div style="left: 48.0%; height: 25%; width: 3.0%;" class="retrobg-building"></div>
+            <div style="left: 50.0%; height: 80%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 52.0%; height: 32%; width: 5.0%;" class="retrobg-building"></div>
+            <div style="left: 55.0%; height: 55%; width: 3.0%;" class="retrobg-building retrobg-antenna"></div>
+            <div style="left: 58.0%; height: 45%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 61.0%; height: 90%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 66.0%; height: 99%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
+            <div style="left: 69.0%; height: 30%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 73.5%; height: 90%; width: 2.0%;" class="retrobg-building"></div>
+            <div style="left: 72.0%; height: 70%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 75.0%; height: 60%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 80.0%; height: 40%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 83.0%; height: 70%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
+            <div style="left: 87.0%; height: 60%; width: 3.0%;" class="retrobg-building retrobg-antenna"></div>
+            <div style="left: 93.0%; height: 50%; width: 3.0%;" class="retrobg-building"></div>
+            <div style="left: 91.0%; height: 30%; width: 4.0%;" class="retrobg-building"></div>
+            <div style="left: 94.0%; height: 20%; width: 3.0%;" class="retrobg-building"></div>
+            <div style="left: 98.0%; height: 35%; width: 2.0%;" class="retrobg-building"></div>
+          </div>
+        </div>
+      </div>
+      <div id="retrobg-ground">
+        <div id="retrobg-linesWrap">
+          <div id="retrobg-lines">
+            <div id="retrobg-vlines">
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+              <div class="retrobg-vline"></div>
+            </div>
+            <div id="retrobg-hlines">
+              <div class="retrobg-hline"></div>
+              <div class="retrobg-hline"></div>
+              <div class="retrobg-hline"></div>
+              <div class="retrobg-hline"></div>
+              <div class="retrobg-hline"></div>
+              <div class="retrobg-hline"></div>
+              <div class="retrobg-hline"></div>
+              <div class="retrobg-hline"></div>
+            </div>
+          </div>
+        </div>
+        <div id="retrobg-groundShadow"></div>
+      </div>
+    </div>
+  </div>
 
   <div class="hg2793-container">
     <div class="contributors nice-border">
@@ -135,8 +280,9 @@
   <div class="content" style="padding-bottom: 155px">
     <p class="p29">
       Welcome to, <br />
-      <span class="title"><b><img src="/favicon.ico" style="vertical-align: middle; height: 22px" />
+      <span class="title"><b>
           <button class="welcome-message" id="confetti-click">
+            <img src="/favicon.ico" style="vertical-align: middle; height: 22px" />
             nate-games.xyz
           </button></b></span>
     </p>

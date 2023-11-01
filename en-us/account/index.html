@@ -6,22 +6,21 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="/css/main/games.css">
+  <link rel="stylesheet" href="/css/dist/main/games.css">
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="style.css">
   <title>My Account | nate-games</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">
-      <button class="home-menu-item btn41-43 btn-41" onclick="window.location.href='/'" class="title">
-        <img src="/favicon.ico" class="nav-icon" />
-        <strong>nate-games</strong>
+  <div class="header">
+    <a href="/">
+      <button class="menu-item root">
+        <strong><img src="/favicon.ico"> nate-games</strong>
       </button>
-    </div>
+    </a>
     <nav class="menu">
-      <a href="/en-us/settings/">
+      <a href="/settings">
         <button class="menu-item">
           <i class="fa-solid fa-gear"></i> Settings
         </button>
@@ -68,7 +67,7 @@
           <i class="fa-solid fa-dice-d6"></i> Emulator
         </button>
       </a>
-      <a href="/en-us/projects/">
+      <a href="/projects">
         <button class="menu-item">
           <i class="fa-solid fa-paper-plane"></i> Projects
         </button>
@@ -92,17 +91,18 @@
         </div>
       </div>
     </nav>
-  </header>
-  
+  </div>
+
   <div class="container2">
     <div class="container">
-      <p><img src="" id="user-avatar" style="height: 100px; border-radius: 100%;" draggable="false"><br><b>Welcome,</b> <a href="https://github.com/" class="link" id="user-href">@<span id="username">User</span></a>. <br> You gain a 50xp ✨ every 10 seconds you
+      <p><img src="" id="user-avatar" style="height: 100px; border-radius: 100%;" draggable="false"><br><b>Welcome,</b>
+        <a href="https://github.com/" class="link" id="user-href">@<span id="username">User</span></a>. <br> You gain a
+        50xp ✨ every 10 seconds you
         play! <br><i>(There are 150xp every level)</i>
       </p>
-      <a href="./settings/"><button class="buttons">Account Settings</button></a>
+      <a href="/en-us/account/logout/"><button class="sign_out">Sign Out</button></a>
       <button id="revealLevel" class="buttons">Reveal my level</button>
       <span id="levelContent" style="display: none;">
-        <button id="changeUsername" style="display: none;" class="buttons">Change Username</button>
         <p>
           <b>Your Level:</b> <span id="level">1</span>
           <br>

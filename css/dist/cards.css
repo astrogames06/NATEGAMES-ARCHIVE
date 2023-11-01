@@ -13,6 +13,29 @@
   padding: 20px;
   width: 400px;
   border-bottom: solid #fff;
+  color: white;
+}
+
+.cards.light {
+  background-color: #ffffffcc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  border-bottom: solid #000;
+  color: black;
+}
+
+.cards.light p {
+  color: #4f4f4f;
+}
+
+.cards.light h3 {
+  margin-top: 0;
+  color: black;
+}
+
+.cards.no-border {
+  border-bottom: none;
 }
 
 .cards h3 {
@@ -44,5 +67,16 @@
   padding: 10px;
   display: inline-block;
   border-radius: 5px;
+  cursor: pointer;
   font-family: var(--font-family-2);
+  transition: .15s ease-in;
+}
+
+.cards-button.hover:hover {
+  background-color: #272727;
+}
+
+.cards-button.hover.scale:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
 }

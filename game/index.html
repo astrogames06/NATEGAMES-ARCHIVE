@@ -8,21 +8,19 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="style.css">
-  <link rel="canonical" href="https://nate-games.xyz/en-us/game/">
   <link rel="stylesheet" href="./preloader.css">
   <link rel="icon" href="/favicon.ico">
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">
-      <button class="home-menu-item btn41-43 btn-41" onclick="window.location.href='/'" class="title">
-        <img src="/favicon.ico" class="nav-icon" />
-        <strong>nate-games</strong>
+  <div class="header">
+    <a href="/">
+      <button class="menu-item root">
+        <strong><img src="/favicon.ico"> nate-games</strong>
       </button>
-    </div>
+    </a>
     <nav class="menu">
-      <a href="/en-us/settings/">
+      <a href="/settings">
         <button class="menu-item">
           <i class="fa-solid fa-gear"></i> Settings
         </button>
@@ -69,7 +67,7 @@
           <i class="fa-solid fa-dice-d6"></i> Emulator
         </button>
       </a>
-      <a href="/en-us/projects/">
+      <a href="/projects">
         <button class="menu-item">
           <i class="fa-solid fa-paper-plane"></i> Projects
         </button>
@@ -93,7 +91,7 @@
         </div>
       </div>
     </nav>
-  </header>
+  </div>
   <div class="center-container">
     <!-- Vertical -->
     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7098145720803384" data-ad-slot="2456133792"
@@ -108,13 +106,15 @@
             <img src="" id="game-img" draggable="false">
           </div>
           <div class="divider-container" style="width: 200px;">
-            <h3 id="game-h3" class="divider">Fetching...</h3>
+            <h3 id="game-h3">Fetching...</h3>
+            <hr style="color: #333;">
           </div>
           <p id="game-description"></p>
           <button class="arrow-button" id="play-button">Play<span class="arrow"></span></button>
         </div>
         <div id="loading-screen" style="display: none;"><br>
-          <p><span id="loading-text"></span> <img src="/img/svg/spinners/ios_spinner.svg" style="height: 15px; vertical-align: middle;"></p>
+          <p><span id="loading-text"></span> <img src="/img/svg/spinners/ios_spinner.svg"
+              style="height: 15px; vertical-align: middle;"></p>
           <center>
             <div class="progress">
               <div class="progress-value"></div>
@@ -141,6 +141,12 @@
             <div class="center-align">
               <button class="continue_game" id="continueButton">Continue to game</button>
             </div>
+          </div>
+        </div>
+        <div id="notice" style="display: none;">
+          <div class="cards no-border">
+            <h3>Notice about <span id="notice-type"></span></h3>
+            <p id="notice-text"></p><span class="cards-button hover scale" id="close-notice">Continue to game <i class="fa-solid fa-angles-right pointing-animation"></i></span>
           </div>
         </div>
         <iframe src="" id="content" frameborder="0" allowfullscreen style="display: none;"></iframe>

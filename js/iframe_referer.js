@@ -1,6 +1,6 @@
 // Only works on a 404 page
 const urlMappings = {
-  "/cdn_loader": "https://cdn.nate-games.xyz" // Log if isDeveloper access
+  "/developer": "https://cdn.nate-games.xyz/dev"
 };
 
 function changeIframeSource() {
@@ -8,7 +8,7 @@ function changeIframeSource() {
   const currentURL = window.location.pathname;
   const referrer = document.referrer;
 
-  if (referrer.startsWith("https://nate-games.xyz/game/")) {
+  if (referrer.startsWith("https://www.nate-games.xyz/game/")) {
     if (urlMappings[currentURL]) {
       iframe.src = urlMappings[currentURL];
       iframe.style.display = "block";
@@ -19,8 +19,6 @@ function changeIframeSource() {
       iframe.style.display = "none";
       resetFavicon();
     }
-  } else {
-    console.log("Referrer is not https://nate-games.xyz/game/");
   }
 }
 

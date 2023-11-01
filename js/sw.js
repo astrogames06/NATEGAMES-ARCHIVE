@@ -64,7 +64,7 @@ function addScript(js) {
 
 // https://stackoverflow.com/questions/13121948/dynamically-add-script-tag-with-src-that-may-include-document-write
 
-// Load settings
+// Load sticky navigation setting
 document.addEventListener("DOMContentLoaded", function (event) {
   if (window.localStorage.getItem("stickyNavbar") == "true") {
     const navBar = document.querySelector(".header");

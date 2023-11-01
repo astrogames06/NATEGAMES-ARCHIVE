@@ -1,9 +1,8 @@
 {
-    "cdn_loader": {
-        "pageMapping": "/cdn_loader",
-        "gameTitle": "developer-access app",
-        "imageSrc": "/game/dev_referer.png",
-        "description": "Secretly access nate-games in developer mode! 🔓"
+    "dev": {
+        "pageMapping": "/dev",
+        "gameTitle": "Developer mode",
+        "imageSrc": "/game/classlink.png"
     },
     "1v1.lol": {
         "pageMapping": "https://cdn.nate-games.xyz/1v1lol/",
@@ -129,9 +128,10 @@
         "gameTitle": "Sonic Revert"
     },
     "subway-surfers": {
-        "pageMapping": "https://raw.githack.com/3kh0/3kh0-assets/main/subway-surfers/index.html",
+        "pageMapping": "/3kh0/3kh0-assets/main/subway-surfers/index.html",
         "imageSrc": "/game/img/subway-surfers.jpg",
-        "gameTitle": "Subway Surfers"
+        "gameTitle": "Subway Surfers",
+        "usegithack": true
     },
     "electricman": {
         "pageMapping": "/flash-loader/dynamic-loader?swf=files/electricman.swf",
@@ -182,7 +182,7 @@
         "pageMapping": "/3d-city/",
         "usecdn": true,
         "imageSrc": "/game/img/3d-city.jpg",
-        "gameTitle": "3D.City"
+        "gameTitle": "3d.city"
     },
     "duck-hunt": {
         "pageMapping": "/duckhunt/",
@@ -201,6 +201,31 @@
         "usecdn": true,
         "imageSrc": "/game/img/pizzatower.jpg",
         "gameTitle": "Pizza Tower"
+    },
+    "btd": {
+        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd.swf",
+        "imageSrc": "/game/img/btd.webp",
+        "gameTitle": "Bloon Tower Defense"
+    },
+    "btd2": {
+        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd2.swf",
+        "imageSrc": "/game/img/btd2.webp",
+        "gameTitle": "Bloon Tower Defense 2"
+    },
+    "btd3": {
+        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd3.swf",
+        "imageSrc": "/game/img/btd3.webp",
+        "gameTitle": "Bloon Tower Defense 3"
+    },
+    "btd4": {
+        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd4.swf",
+        "imageSrc": "/game/img/btd4.jpg",
+        "gameTitle": "Bloon Tower Defense 4"
+    },
+    "btd5": {
+        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd5.swf",
+        "imageSrc": "/game/img/btd5.webp",
+        "gameTitle": "Bloon Tower Defense 5"
     },
     "worlds-hardest-game": {
         "pageMapping": "/flash-loader/dynamic-loader?swf=files/whg.swf",
@@ -221,6 +246,12 @@
         "pageMapping": "https://html5.iclouds.io/dumb-ways-die/?ref",
         "imageSrc": "https://play-lh.googleusercontent.com/jrRzz98Tb0JK1XuO0Yw01Ep1zVQDM14IDl4fq21nMpmt7yAXfXwSF0xlc60Hv_FUAx79",
         "gameTitle": "Dumb ways to die"
+    },
+    "10-minutes-till-dawn": {
+        "pageMapping": "/3kh0/3kh0-assets/main/10-minutes-till-dawn/index.html",
+        "imageSrc": "/game/img/10-minutes-till-dawn.png",
+        "gameTitle": "10 Minutes Till Dawn",
+        "usegithack": true
     },
     "geometry-dash": {
         "pageMapping": "/gdash/",
@@ -295,6 +326,12 @@
         "usecdn": true,
         "imageSrc": "/game/img/repuls-io.jpg",
         "gameTitle": "Repuls.io"
+    },
+    "fnaf": {
+        "pageMapping": "https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/",
+        "imageSrc": "/game/img/fnaf.jpg",
+        "gameTitle": "Five Nights At Freddy's",
+        "eduNotice": true
     },
     "fnaf-4": {
         "pageMapping": "/fnaf-4/",
@@ -485,11 +522,10 @@
         "gameTitle": "Valorant"
     },
     "angrybirds": {
-        "pageMapping": "/angrybirds/",
+        "pageMapping": "/angrybirds/AngryBirdsGame.htm",
         "usecdn": true,
         "imageSrc": "/game/img/angrybirds.png",
-        "gameTitle": "Angry Birds",
-        "description": "(Opens in CDN)"
+        "gameTitle": "Angry Birds"
     },
     "money-land": {
         "pageMapping": "https://ubg365.github.io/money-land/",
@@ -573,7 +609,7 @@
         "gameTitle": "Henry Stickmin 2"
     },
     "henry-stickmin-3": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=URL",
+        "pageMapping": "/flash-loader/dynamic-loader?swf=files/henry-stickmin3.swf",
         "imageSrc": "/game/img/hs3.bmp",
         "gameTitle": "Henry Stickmin 3"
     },
@@ -650,5 +686,18 @@
         "usecdn": true,
         "imageSrc": "/game/img/big-neon-tower.jpg",
         "gameTitle": "Big neon tower vs. Tiny Square"
+    },
+    "ovo3": {
+        "pageMapping": "/ovo3/",
+        "imageSrc": "/game/img/ovo3.avif",
+        "gameTitle": "OvO 3 - Dimensions",
+        "usecdn": true
+    },
+    "backrooms": {
+        "pageMapping": "/backrooms/",
+        "imageSrc": "/game/img/backrooms.jpg",
+        "gameTitle": "Backrooms",
+        "description": "We have heard you.",
+        "usecdn": true
     }
 }

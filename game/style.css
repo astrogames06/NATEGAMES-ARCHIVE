@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url(ads.css);
+@import url("ads.css");
+@import url("/css/style.css");
 
 html,
 body {
   padding: 0;
   margin: 0;
+  font-family: var(--font-family);
 }
 
 .center-container {
@@ -13,6 +14,15 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#notice {
+  position: absolute;
+  z-index: 9999;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #embed-container {
@@ -32,7 +42,7 @@ body {
   transform: translate(-50%, -50%);
   z-index: 889;
   color: white;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
   text-align: center;
 }
 
@@ -159,7 +169,7 @@ center:hover .show-bar {
   left: 0;
   z-index: 9999;
   color: white;
-  font-family: "Roboto", "Lato", Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
   position: absolute;
   margin-left: 15px;
   margin-bottom: 15px;
@@ -237,7 +247,7 @@ center:hover .show-bar {
   border: none;
   border-color: transparent;
   font-size: 15px;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   transition: all 0.1s;
   box-shadow: 0px 10px 0px #000;
   margin-top: 50px;
@@ -255,10 +265,10 @@ center:hover .show-bar {
   color: white;
   position: absolute;
   margin-left: 220px;
-  margin-bottom: 15px;
-  font-size: 14px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-family: var(--font-family);
   font-weight: normal;
-  font-family: "Lato", sans-serif;
 }
 
 .games-title {
@@ -271,7 +281,7 @@ center:hover .show-bar {
   margin-bottom: 15px;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Lato", sans-serif;
+  font-family: var(--font-family);
 }
 
 .progress {

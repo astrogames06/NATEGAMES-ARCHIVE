@@ -1,0 +1,130 @@
+html,
+body {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  background-color: #171717;
+  color: #fff;
+  max-width: 100%;
+}
+
+.header {
+  background-color: #0f0f0f;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+  z-index: 9999 !important;
+  box-shadow: 0px 0px 7px #000;
+}
+
+.menu {
+  display: flex;
+  gap: 2px;
+}
+
+.menu-item {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.15s;
+  font-family: var(--font-family-2);
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.menu-item img {
+  vertical-align: middle;
+  height: 20px;
+  margin: 0 5px 0;
+}
+
+.menu-item i {
+  height: 20px;
+  margin: 0 5px 0;
+  color: white;
+  font-size: 14px;
+}
+
+.menu-item:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "Lato";
+}
+
+.dropdown-content {
+  visibility: hidden;
+  position: absolute;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #111;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  border-radius: 8px;
+  user-select: none;
+  transition: max-height 0.9s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  border-radius: 8px;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  animation: dropdown-menu 0.4s forwards;
+}
+
+@keyframes dropdown-menu {
+  from {
+    /*max-height: 0;*/
+    margin-top: -8.5px;
+    max-height: 100vh;
+    opacity: 0;
+    transform: scale(0.85) rotate3d(1, 100deg, 1, 1);
+  }
+
+  to {
+    /*max-height: 100vh;*/
+    max-height: 100vh;
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.dropdown-content span {
+  padding: 12px 16px;
+  display: block;
+  color: white;
+  border-radius: 8px;
+}
+
+.sponsor {
+  vertical-align: middle;
+  height: 12px;
+}

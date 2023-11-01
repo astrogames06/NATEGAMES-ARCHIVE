@@ -19,23 +19,23 @@ fetch("/js/json/games.json")
     setTimeout(() => {
       centerAlign.removeChild(loadingMessage);
 
-      const urlParams = new URLSearchParams(window.location.search.substr(1));
+      const urlParams = new URLSearchParams(window.location.search);
 
       data.forEach((game) => {
-        if (urlParams.toString() === "" || window.location.pathname === "/") {
-          createGameCard(game, gameContainer);
-        } else {
+        if (urlParams.has('tags')) {
           const tags = game.tags.split(", ");
-
-          const matchingTags = tags.filter((tag) =>
-            urlParams.has(tag.toLowerCase())
-          );
-
+          const queryTags = urlParams.get('tags').split(", ");
+      
+          const matchingTags = tags.filter(tag => queryTags.includes(tag.toLowerCase()));
+      
           if (matchingTags.length > 0) {
             createGameCard(game, gameContainer);
           }
+        } else {
+          createGameCard(game, gameContainer);
         }
       });
+      
     }, 0);
   })
   .catch((error) => {

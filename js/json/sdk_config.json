@@ -1,5 +1,6 @@
 {
     "gameData": "/js/json/game-data.json",
     "ads": "https://cdn.nate-games.xyz/center-ads",
-    "cdn": "https://cdn.nate-games.xyz"
+    "cdn": "https://cdn.nate-games.xyz",
+    "gitcdn": "https://raw.githack.com"
 }

@@ -9,22 +9,33 @@
 @import url("./dist/switches.css");
 @import url("./dist/keys.css");
 @import url("./dist/main/games.css");
+@import url("./dist/animations.css");
 
 a {
   color: var(--creative-blue);
   text-decoration: none;
 }
 
-
 :root {
   font-family: var(--font-family);
-  --font-family: "Roboto", "Inter", "Source Sans Pro", "Lato", "Open Sans", Arial, Helvetica, sans-serif;
-  --font-family-2: "Lato", "Open Sans", "Roboto", "Inter", "Source Sans Pro", Arial, Helvetica, sans-serif;
-  --font-family-3: "Source Sans Pro", "Roboto", "Inter", "Lato", "Open Sans", Arial, Helvetica, sans-serif;
+  --font-family: "Roboto", "Inter", "Source Sans Pro", "Lato", "Open Sans",
+    Arial, Helvetica, sans-serif;
+  --font-family-2: "Lato", "Open Sans", "Roboto", "Inter", "Source Sans Pro",
+    Arial, Helvetica, sans-serif;
+  --font-family-3: "Source Sans Pro", "Roboto", "Inter", "Lato", "Open Sans",
+    Arial, Helvetica, sans-serif;
   --creative-blue: #4287f5;
   --light-blue: #6499ff;
-  --name: content: "nate-games";
-  --logo: content: url("/favicon.ico");
+  --logo: url("/favicon.ico");
+  -webkit-font-smoothing: antialiased;
+}
+
+.menu-item.root strong {
+  font-family: var(--font-family);
+}
+.menu-item.root strong img {
+  height: 25px;
+  vertical-align: middle;
 }
 
 input.nice-input {
@@ -101,7 +112,7 @@ select {
 }
 
 .custom-checkbox:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #2196f3;
   box-shadow: 0 3px 7px rgba(33, 150, 243, 0.3);
 }
 
@@ -124,3 +135,14 @@ select {
 }
 
 /* Checkbox End */
+
+/* Keen Slider start */
+.keen-slider__slide {
+  max-height: 150px;
+  border-radius: 10px;
+}
+
+.keen-slider {
+  border-radius: 10px;
+}
+/* Keen Slider end

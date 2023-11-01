@@ -2,16 +2,17 @@
 <html>
 
 <head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css" />
+  <link rel="stylesheet" href="https://zegor.csb.app/styles.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/error.css">
   <link rel="icon" href="/favicon.ico">
-  <title>404 | Page not found</title>
+  <title>Sponsor | nate-games</title>
 </head>
 
 <body>
-  <iframe src="" frameborder="0" id="game-id" style="display: none;"></iframe>
   <div class="header">
     <a href="/">
       <button class="menu-item root">
@@ -91,92 +92,67 @@
       </div>
     </nav>
   </div>
-
-  <div class="container2">
-    <div class="container">
-      <h2>404 | Page not found.</h2>
-      <p>Sorry, The URL <span id="path"></span> was <br> not found on this server or you don't have access.</p>
-      <a class="buttons" href="/">Home</a>
-      <a class="buttons" href="/0/g/">Games</a><br><br>
-      <a class="sfn" onclick="statsForNerds()">Stats for nerds <span class="material-symbols-outlined"
-          style="vertical-align: middle; font-size: 20px;">
-          bug_report
-        </span></a>
-
-      <div id="sfn" class="message">
-        <br>
-        <b>Screen height:</b> <span id="height">Fetching...</span><br />
-        <b>Screen width:</b> <span id="width">Fetching...</span><br />
-        <b>Window height:</b> <span id="winheight">Fetching...</span><br />
-        <b>Window width:</b> <span id="winwidth">Fetching...</span><br />
-        <b>Cookies Enabled:</b> <span id="cookie">Fetching...</span><br />
-        <b>User's IP:</b> <span id="displayIP">Fetching...</span><br />
+  <div class="card-container">
+    <div class="cards">
+      <h2>Sponsor</h2>
+      <p>Want to sponsor one of our projects? Go visit our patreon and get a shoutout! Send us a message upon
+        completion!
+      </p><a href="//patreon.com/nate_games">patreon.com/nate_games</a><br><br>
+      <h3>Our Sponsors</h3>
+      <p>Here are a list of our current sponsors
+        <hr>
+      </p>
+      <div id="sponsors-slider" class="keen-slider">
+        <div class="keen-slider__slide number-slide1">1</div>
+        <div class="keen-slider__slide number-slide2">2</div>
+        <div class="keen-slider__slide number-slide3">3</div>
+        <div class="keen-slider__slide number-slide4">4</div>
+        <div class="keen-slider__slide number-slide5">5</div>
+        <div class="keen-slider__slide number-slide6">6</div>
       </div>
-
-      <script>
-        // Credits 3kh0, some changes were made
-        function statsForNerds() {
-          var x = document.getElementById("sfn");
-          if (x.style.display === "none") {
-            x.style.display = "block";
-          } else {
-            x.style.display = "none";
-          }
-        }
-        document.getElementById("height").innerHTML = screen.height + "px";
-        document.getElementById("width").innerHTML = screen.width + "px";
-        document.getElementById("winheight").innerHTML =
-          window.innerHeight + "px";
-        document.getElementById("winwidth").innerHTML = window.innerWidth + "px";
-        document.getElementById("cookie").innerText = navigator.cookieEnabled;
-
-        function fetchText() {
-          fetch('https://ip.nate-games.xyz')
-            .then(response => response.text())
-            .then(data => {
-              document.getElementById('displayIP').textContent = data;
-            })
-            .catch(error => {
-              console.error('Error fetching text:', error);
-            });
-        }
-        fetchText();
-      </script>
-
+      <p>Built with <a href="https://keen-slider.io" class="link">Keen-Slider</a>'s powerful API!<br><br> <a
+          class="cards-button" href="/">Close</a></p>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      let path = window.location.pathname;
-
-      if (window !== window.parent) {
-        path = window.parent.location.pathname;
-      }
-
-      document.getElementById('path').textContent = path;
-    });
+    var slider = new KeenSlider(
+      "#sponsors-slider",
+      {
+        loop: true,
+      },
+      [
+        (slider) => {
+          let timeout
+          let mouseOver = false
+          function clearNextTimeout() {
+            clearTimeout(timeout)
+          }
+          function nextTimeout() {
+            clearTimeout(timeout)
+            if (mouseOver) return
+            timeout = setTimeout(() => {
+              slider.next()
+            }, 2000)
+          }
+          slider.on("created", () => {
+            slider.container.addEventListener("mouseover", () => {
+              mouseOver = true
+              clearNextTimeout()
+            })
+            slider.container.addEventListener("mouseout", () => {
+              mouseOver = false
+              nextTimeout()
+            })
+            nextTimeout()
+          })
+          slider.on("dragStarted", clearNextTimeout)
+          slider.on("animationEnded", nextTimeout)
+          slider.on("updated", nextTimeout)
+        },
+      ]
+    )
   </script>
-  <script>
-    function getParameterByName(name) {
-      const url = new URL(window.location.href);
-      return url.searchParams.get(name);
-    }
-
-    function hideElementById(elementId) {
-      const element = document.getElementById(elementId);
-      if (element) {
-        element.style.display = 'none';
-      }
-    }
-
-    const elementToHide = getParameterByName('hide');
-
-    if (elementToHide) {
-      hideElementById(elementToHide);
-    }
-
-  </script>
-  <script src="/js/iframe_referer.js"></script>
   <script src="/js/sw.js"></script>
   <script src="/js/editor.js"></script>
 </body>
