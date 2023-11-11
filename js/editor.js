@@ -81,26 +81,6 @@ function openBlank() {
   win.document.body.appendChild(iframe);
 }
 
-// sticky search bar start
-const stickysearchCheckbox = document.getElementById("stickysearch_checkbox");
-
-stickysearchCheckbox.addEventListener("change", (event) => {
-  if (event.currentTarget.checked) {
-    window.localStorage.setItem("stickySearchbar", "true");
-  } else {
-    window.localStorage.setItem("stickySearchbar", "false");
-  }
-});
-
-if (window.localStorage.getItem("stickySearchbar") != "") {
-  if (window.localStorage.getItem("stickySearchbar") == "true") {
-    stickysearchCheckbox.checked = true;
-  } else {
-    stickysearchCheckbox.checked = false;
-  }
-}
-// sticky search bar end
-
 const stickynavSwitch = document.getElementById("stickyNavigation_switch");
 
 if (window.localStorage.getItem("stickyNavbar") != "") {
@@ -115,22 +95,5 @@ stickynavSwitch.addEventListener("change", (event) => {
     window.localStorage.setItem("stickyNavbar", "true");
   } else {
     window.localStorage.setItem("stickyNavbar", "false");
-  }
-});
-
-const hidebarSwitch = document.getElementById("hidebar_switch");
-
-if (window.localStorage.getItem("autohidebar") != "") {
-  if (window.localStorage.getItem("autohidebar") == "true") {
-    hidebarSwitch.checked = true;
-  } else {
-    hidebarSwitch.checked = false;
-  }
-}
-hidebarSwitch.addEventListener("change", (event) => {
-  if (event.currentTarget.checked) {
-    window.localStorage.setItem("autohidebar", "true");
-  } else {
-    window.localStorage.setItem("autohidebar", "false");
   }
 });

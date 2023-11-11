@@ -104,19 +104,9 @@
         <option value="0" onclick="resetTab()">Default</option>
         <option value="1" onclick="setTitle(title = 'Classes'); setFavicon('/game/class.png')">Classroom</option>
         <option value="2" onclick="setTitle(title = 'Classlink'); setFavicon('/game/classlink.png')">Classlink</option>
-        <option value="3" onclick="setTitle(title = 'Canvas'); setFavicon('/game/canvas.ico')">Canvas</option>
+        <option value="3" onclick="setTitle(title = 'Dashboard'); setFavicon('/game/canvas.ico')">Canvas</option>
       </select>
       </p>
-    </div>
-
-    <div class="cards">
-      <h3>Hide Bar
-      </h3>
-      <p>Automatically hide bar on the game page</p>
-      <label class="switch">
-        <input type="checkbox" id="hidebar_switch">
-        <span class="slider"></span>
-      </label>
     </div>
 
     <div class="cards">
@@ -136,23 +126,7 @@
         <span class="slider"></span>
       </label>
 
-      <hr>
-      <h3>Sticky search-bar</h3>
-      <p>Would you also want to enable sticky search-bar? (Sticky navigation must be enabled first)</p>
-      <label class="checkbox-container">
-        <input class="custom-checkbox" id="stickysearch_checkbox" type="checkbox">
-        <span class="checkmark"></span>
-      </label>
 
-
-    </div>
-
-    <div class="cards">
-      <h3>Panic Key (Coming soon)</h3>
-      <p>In class or realized you're off-topic? Set a website to go to using your <b>Panic Key</b>.</p>
-      <input class="nice-input" id="panic-key-input" placeholder="Panic Key">
-      <input class="nice-input" id="url-input" placeholder="URL">
-      <a class="cards-button" style="cursor: pointer;" onclick="savePanicKeyAndURL()">Save</a>
     </div>
 
     <div class="cards">
@@ -168,6 +142,11 @@
   </div>
   <script src="/js/editor.js"></script>
   <script src="/js/sw.js"></script>
+
+  <label class="checkbox-container">
+    <input class="custom-checkbox" type="checkbox" onchange="alert('Failed to register Service Worker')">
+    <span class="checkmark"></span>
+  </label>
 </body>
 
 </html>

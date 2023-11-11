@@ -18,7 +18,7 @@ body {
 
 #notice {
   position: absolute;
-  z-index: 9999;
+  z-index: 9998;
   margin: 0;
   top: 50%;
   left: 50%;
@@ -58,7 +58,7 @@ body {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  z-index: 9999;
+  z-index: 9998;
   max-height: 50px;
   overflow: hidden;
   border: none;
@@ -98,7 +98,7 @@ body {
   display: flex;
   height: 20px;
   background-color: #111;
-  z-index: 9998;
+  z-index: 1;
   user-select: none;
   overflow: hidden;
   bottom: 0px;
@@ -115,7 +115,7 @@ body {
   left: calc(50% - 30px);
   visibility: hidden;
   opacity: 0;
-  z-index: 9999;
+  z-index: 2;
   color: white;
   position: absolute;
   font-size: 10px;
@@ -223,6 +223,7 @@ center:hover .show-bar {
 
 .giscus-frame {
   width: 50%;
+  z-index: 2;
   display: inline-block;
   position: relative;
 }
@@ -232,7 +233,7 @@ center:hover .show-bar {
   font-size: 15px;
   bottom: 19px;
   right: 0;
-  z-index: 9999;
+  z-index: 2;
   position: absolute;
   margin-right: 50px;
   color: #ffdb3d;
@@ -261,7 +262,7 @@ center:hover .show-bar {
 #game-title {
   bottom: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 2;
   color: white;
   position: absolute;
   margin-left: 220px;
@@ -274,7 +275,7 @@ center:hover .show-bar {
 .games-title {
   bottom: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 2;
   color: white;
   position: absolute;
   margin-left: 170px;

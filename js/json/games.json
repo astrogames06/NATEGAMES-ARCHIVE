@@ -20,22 +20,10 @@
     "tags": "action, shooting, unity"
   },
   {
-    "url": "/game/?1v1.lol-method-2",
-    "imageSrc": "/game/img/1v1lol2.bmp",
-    "name": "1v1.LOL [Method 2]",
-    "tags": "action, shooting, unity"
-  },
-  {
     "url": "/game/?justfall.lol",
     "imageSrc": "/game/img/justfall.png",
     "name": "JustFall.LOL",
     "tags": "kids, fun, unity, action"
-  },
-  {
-    "url": "/game/?roblox",
-    "imageSrc": "./Roblox/splash.png",
-    "name": "Roblox",
-    "tags": "kids, fun, adventure"
   },
   {
     "url": "/game/?reblox-client",
@@ -211,27 +199,15 @@
     "tags": "html5, kids, action, point-and-click"
   },
   {
-    "url": "./AngryBirdsWebGL/",
+    "url": "/game/?angrybirds-webgl",
     "imageSrc": "https://static.wikia.nocookie.net/angrybirds/images/b/bd/AB_Reloaded_Icon.png",
     "name": "Angry Birds (WebGL)",
-    "tags": "unity, kids, point-and-click, action"
+    "tags": "unity, kids, action, point-and-click"
   },
   {
-    "url": "./CrossyRoad/",
+    "url": "/game/?crossy-road",
     "imageSrc": "https://play-lh.googleusercontent.com/2yH_JCxn7D9FttXZViPhmvIEDfRhio5qdLdWJLxcIfh8PjIkVeBgt_Gj7q21dIRp97g",
     "name": "Crossy Road",
-    "tags": "html5, kids, action"
-  },
-  {
-    "url": "./CrossyRoad-space/",
-    "imageSrc": "CrossyRoad-space/splash.jpg",
-    "name": "Crossy Road Space",
-    "tags": "html5, kids, action"
-  },
-  {
-    "url": "CrossyRoad-remake/",
-    "imageSrc": "CrossyRoad-remake/splash.jpg",
-    "name": "Crossy Road (Remake)",
     "tags": "html5, kids, action"
   },
   {
@@ -268,12 +244,6 @@
     "url": "/0/g/minecraft-classic/",
     "imageSrc": "./minecraft-classic/game/splash.jpg",
     "name": "Minecraft Classic",
-    "tags": "html5, kids, action"
-  },
-  {
-    "url": "/0/g/mchacks/",
-    "imageSrc": "./mchacks/game/bg_main.png",
-    "name": "MC Classic (HACKS)",
     "tags": "html5, kids, action"
   },
   {
@@ -337,8 +307,8 @@
     "tags": "kids, unity"
   },
   {
-    "url": "adcap/",
-    "imageSrc": "adcap/upscaled.jpg",
+    "url": "/game/?adventure-capitalist",
+    "imageSrc": "/game/img/adventure-capitalist.jpg",
     "name": "AdVenture Capitalist",
     "tags": "kids, unity"
   },
@@ -439,8 +409,8 @@
     "tags": "fnaf, unity, horror"
   },
   {
-    "url": "./cookieclicker/",
-    "imageSrc": "./cookieclicker/game/splash.png",
+    "url": "/game/?cookie-clicker",
+    "imageSrc": "/game/img/cookie-clicker.png",
     "name": "Cookie Clicker",
     "tags": "kids, fun, clicker"
   },
@@ -493,8 +463,8 @@
     "tags": "html5, kids, point-and-click, action"
   },
   {
-    "url": "./stickmanhook/",
-    "imageSrc": "stickmanhook/unnamed.jpg",
+    "url": "/game/?stickman-hook",
+    "imageSrc": "/game/img/stickman-hook.jpg",
     "name": "Stickman Hook",
     "tags": "html5, intense, singleplayer, action, point-and-click"
   },
@@ -536,7 +506,7 @@
     "name": "Pizza Tower"
   },
   {
-    "url": "./slitherio/",
+    "url": "/game/?slither-io",
     "imageSrc": "https://play-lh.googleusercontent.com/oObkhKfUXOY5yzheKe9w1Y1pXZBgdiSksMeNmT0BijoQ8J75maTCIW2TA7-6pA6EMA",
     "name": "Slither.io"
   },
@@ -544,11 +514,6 @@
     "url": "/game/?google-snake",
     "imageSrc": "https://play-lh.googleusercontent.com/LU72Y-ZB_yLGsIP9-qQVN5jx39k-Zk_YVRWGbZAkNU0mZak2aQHQhf8MM5Z1cE6q7XE",
     "name": "Google Snake"
-  },
-  {
-    "url": "./slither-remake/",
-    "imageSrc": "./slither-remake/game/splash.png",
-    "name": "Slither.io (Remake)"
   },
   {
     "url": "./superhot/",
@@ -576,8 +541,8 @@
     "name": "Shell Shockers"
   },
   {
-    "url": "./krunker/",
-    "imageSrc": "./krunker/game/img/krunker-io.jpg",
+    "url": "/game/?krunker",
+    "imageSrc": "/game/img/krunker.png",
     "name": "Krunker"
   },
   {
@@ -665,22 +630,10 @@
     "tags": "construct"
   },
   {
-    "url": "pvz/",
+    "url": "/game/?plants-vs-zombies",
     "imageSrc": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/IPodTouchicon4.png",
     "name": "Plants vs. Zombies",
     "tags": "flash, original, fun, intense, tower-defense"
-  },
-  {
-    "url": "pvz-html/",
-    "imageSrc": "https://static.wikia.nocookie.net/plantsvszombies/images/f/ff/Plantsvs.ZombiesFREEicon.png",
-    "name": "Plants vs. Zombies [HTML]",
-    "tags": "html5, fun, intense, tower-defense, remake"
-  },
-  {
-    "url": "/game/?pvz-ds",
-    "imageSrc": "/game/img/pvz-ds.webp",
-    "name": "Plants vs. Zombies [Nintendo DS]",
-    "tags": "nintendo-ds, intense, fun, tower-defense, original"
   },
   {
     "url": "/game/?btd",
@@ -718,14 +671,9 @@
     "name": "Thumb Fighter"
   },
   {
-    "url": "./among-us/online/",
+    "url": "/game/?among-us",
     "imageSrc": "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec=w240-h480-rw",
     "name": "Among Us"
-  },
-  {
-    "url": "./among-us/offline/",
-    "imageSrc": "https://images.squarespace-cdn.com/content/v1/5a4c4ea9bff200d1651f1e04/1616180199194-9898XXJUBE8UTNEVIU3F/among-us-icon.jpeg?format=1000w",
-    "name": "Among Us Offline"
   },
   {
     "url": "stair-race3d/",
@@ -758,13 +706,13 @@
     "name": "Eggy Car"
   },
   {
-    "url": "/0/g/ovo/",
-    "imageSrc": "./ovo/game/icon-256.png",
+    "url": "/game/?ovo",
+    "imageSrc": "/game/img/ovo.png",
     "name": "OvO"
   },
   {
-    "url": "/0/g/ovo2/",
-    "imageSrc": "./ovo2/game/icons/icon-512.png",
+    "url": "/game/?ovo2",
+    "imageSrc": "/game/img/ovo2.png",
     "name": "OvO 2"
   },
   {
@@ -788,33 +736,13 @@
     "name": "Jelly Mario Bros"
   },
   {
-    "url": "/0/e/SNES/Super Mario World/",
-    "imageSrc": "/0/e/SNES/Super Mario World/game/splash.jpg",
-    "name": "Super Mario World"
-  },
-  {
-    "url": "/0/e/Nintendo 64/Mario Kart 64/",
-    "imageSrc": "/0/e/Nintendo 64/Mario Kart 64/game/splash.jpg",
-    "name": "Mario Kart 64"
-  },
-  {
-    "url": "/0/e/SNES/Super Mario Kart/",
-    "imageSrc": "/0/e/SNES/Super Mario Kart/game/splash.jpg",
-    "name": "Super Mario Kart"
-  },
-  {
     "url": "./sm64/",
     "imageSrc": "sm64/splash.jpeg",
     "name": "Super Mario 64 (JavaScript)"
   },
   {
-    "url": "/0/e/Nintendo 64/Super Mario 64/",
-    "imageSrc": "./sm64/game/splash.jpg",
-    "name": "Super Mario 64"
-  },
-  {
-    "url": "./sm63/",
-    "imageSrc": "./sm63/upscale.jpg",
+    "url": "/game/?sm63",
+    "imageSrc": "/game/img/sm63.jpg",
     "name": "Super Mario 63"
   },
   {
@@ -839,26 +767,6 @@
     "hotGame": true
   },
   {
-    "url": "/0/g/geodashscratch/",
-    "imageSrc": "./geodashscratch/game/splash.jpg",
-    "name": "Geo Dash (Scratch)"
-  },
-  {
-    "url": "/0/g/geodashsubzero/",
-    "imageSrc": "https://play-lh.googleusercontent.com/QtW5CVMDs9zzbRW5L2QNMqcapOXCMsUiRxPe-eKwiR04L-DQf3gcW21GOglufcRj8A",
-    "name": "Geometry Dash Subzero"
-  },
-  {
-    "url": "/0/g/geodashmeltdown/",
-    "imageSrc": "./geodashmeltdown/game/splash.bmp",
-    "name": "Geometry Dash Meltdown"
-  },
-  {
-    "url": "/0/g/geodashworld/",
-    "imageSrc": "https://play-lh.googleusercontent.com/eu0Lv1QtDbCdVvuphJh84zxKNURIEcXjmZPhAv4NM4Xacfjum9TspfYkzRcBKv4zpDk",
-    "name": "Geometry Dash World"
-  },
-  {
     "url": "/0/g/greybox/",
     "imageSrc": "./greybox/game/splash.png",
     "name": "Grey-Box Testing"
@@ -877,16 +785,6 @@
     "url": "/0/g/pacman-flash/",
     "imageSrc": "/0/g/pacman-flash/splash.png",
     "name": "Pacman (FLASH)"
-  },
-  {
-    "url": "/0/e/NES/Pacman/",
-    "imageSrc": "https://cdn.vox-cdn.com/thumbor/Ro8tFMu3c3LGSAbd-mMDNuvu01Q=/0x0:1301x1000/1200x800/filters:focal(547x396:755x604)/cdn.vox-cdn.com/uploads/chorus_image/image/55505037/pac_man_vs.0.jpg",
-    "name": "Pacman (NES)"
-  },
-  {
-    "url": "/game/?gacha-club",
-    "imageSrc": "./gacha-club/5yoczcli.bmp",
-    "name": "Gacha Club"
   },
   {
     "url": "/0/g/baldisbasics/",
@@ -1024,11 +922,6 @@
     "url": "./Terraria/"
   },
   {
-    "name": "Happy Glass",
-    "imageSrc": "./happyglass/game/64zkudz0.bmp",
-    "url": "./happyglass/"
-  },
-  {
     "name": "Candy Crush",
     "imageSrc": "/game/img/candycrush.bmp",
     "url": "/game/?candy-crush"
@@ -1042,11 +935,6 @@
     "name": "Temple of Boom",
     "imageSrc": "/game/img/templeofboom.avif",
     "url": "/game/?temple-of-boom"
-  },
-  {
-    "name": "Granny",
-    "imageSrc": "https://upload.wikimedia.org/wikipedia/en/8/88/Granny_game_icon.png",
-    "url": "./granny/"
   },
   {
     "name": "Gravity Driver",
@@ -1095,8 +983,8 @@
   },
   {
     "name": "Basketball Stars",
-    "imageSrc": "basketball-stars/unnamed.png",
-    "url": "./basketball-stars/"
+    "imageSrc": "/game/img/basketball-stars.png",
+    "url": "/game/?basketball-stars"
   },
   {
     "name": "Bouncy Basketball",
@@ -1157,11 +1045,6 @@
     "name": "Big Neon Tower",
     "imageSrc": "/game/img/big-neon-tower.jpg",
     "url": "/game/?big-neon-tower-vs-tiny-square"
-  },
-  {
-    "name": "Duck Life",
-    "imageSrc": "https://play-lh.googleusercontent.com/AUGkRrKMtUCLVE9vCvlfMY9Ny9EBqzx17yejVtEEhvpkw-H6lJlvBHgCMqPJm8HV_tM",
-    "url": "/0/g/duck-life/"
   },
   {
     "name": "Duck Hunt",
@@ -1227,11 +1110,5 @@
     "imageSrc": "/game/img/wings-io.png",
     "url": "/game/?wings.io",
     "tags": "kids, fun, adventure, action, html5, multiplayer"
-  },
-  {
-    "name": "3d.city",
-    "imageSrc": "/game/img/3d-city.jpg",
-    "url": "/game/?3d-city",
-    "newGame": true
   }
 ]

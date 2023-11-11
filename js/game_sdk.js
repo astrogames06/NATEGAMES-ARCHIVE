@@ -47,7 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
               iframeSrc = pageMapping;
             }
-          }          
+          }
+          document.title = "nate-games | " + gameTitle;
 
           changeText(gameTitle);
           changeDescription(gameDesc);
@@ -263,15 +264,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Load autohidebar start
-document.addEventListener("DOMContentLoaded", function (event) {
-  if (window.localStorage.getItem("autohidebar") == "true") {
-    hidebar();
-  } else {
-    showbar();
-  }
-});
-// Load autohidebar end
 
 function hidebar() {
   const Likes = document.querySelector(".likes");

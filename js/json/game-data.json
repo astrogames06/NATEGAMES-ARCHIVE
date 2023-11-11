@@ -1,703 +1,754 @@
 {
-    "dev": {
-        "pageMapping": "/dev",
-        "gameTitle": "Developer mode",
-        "imageSrc": "/game/classlink.png"
-    },
-    "1v1.lol": {
-        "pageMapping": "https://cdn.nate-games.xyz/1v1lol/",
-        "gameTitle": "1v1.LOL",
-        "imageSrc": "/game/img/1v1lol.jpg"
-    },
-    "1v1.lol-method-2": {
-        "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/ko1ov/get@fb7ed29a4db54f84f6b67f4fa15ad280e4863d28/main.xml",
-        "imageSrc": "/game/img/1v1lol2.bmp",
-        "gameTitle": "1v1.LOL [Method 2]"
-    },
-    "justfall.lol": {
-        "pageMapping": "https://cdn.nate-games.xyz/just-fall/",
-        "imageSrc": "/game/img/justfall.png",
-        "gameTitle": "JustFall.LOL"
-    },
-    "cluster-rush": {
-        "pageMapping": "/cluster-rush/",
-        "imageSrc": "/game/img/cluster-rush.png",
-        "gameTitle": "Cluster Rush",
-        "usecdn": true
-    },
-    "doodle-jump": {
-        "pageMapping": "/doodle-jump/",
-        "imageSrc": "/game/img/doodle-jump.png",
-        "gameTitle": "Doodle Jump",
-        "usecdn": true
-    },
-    "octocat-jump": {
-        "pageMapping": "https://cdn.nate-games.xyz/octocat-jump/",
-        "imageSrc": "/game/img/octocat-jump.png",
-        "gameTitle": "Octocat Jump"
-    },
-    "1": {
-        "pageMapping": "https://cdn.nate-games.xyz/1/",
-        "imageSrc": "/game/img/1.png",
-        "gameTitle": "1"
-    },
-    "2048": {
-        "pageMapping": "https://cdn.nate-games.xyz/2048/",
-        "imageSrc": "/game/img/2048.png",
-        "gameTitle": "2048"
-    },
-    "wings.io": {
-        "pageMapping": "https://wings.io",
-        "imageSrc": "/game/img/wings-io.png",
-        "gameTitle": "Wings.io"
-    },
-    "roblox": {
-        "pageMapping": "/0/g/Roblox/",
-        "imageSrc": "/0/g/Roblox/splash.png",
-        "gameTitle": "ROBLOX"
-    },
-    "reblox-client": {
-        "pageMapping": "https://cdn.nate-games.xyz/reblox-client/",
-        "imageSrc": "/game/img/reblox-client.jpg",
-        "gameTitle": "Reblox Client",
-        "description": "Only OG nate-gamers remember the original version"
-    },
-    "gacha-club": {
-        "pageMapping": "/0/g/gacha-club/",
-        "imageSrc": "/0/g/gacha-club/5yoczcli.bmp",
-        "gameTitle": "Gacha Club"
-    },
-    "papas-burgeria": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/papasburgeria.swf",
-        "imageSrc": "https://play-lh.googleusercontent.com/rHJuY78XSJrhbaW39aYNhViggnzCgR5Zu-xfIx7Sga0Y3Tv3iIuGIIgvEMqfI5Kn",
-        "gameTitle": "Papa's Burgeria"
-    },
-    "papas-doggeria": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=https://cdn.jsdelivr.net/gh/AndreajnRcm4/d4g62dgv5a@f32beddc27cf3b81ecbeac4d6250faa864afd60f/dt/39.swf",
-        "imageSrc": "/game/img/papas-doggeria.png",
-        "gameTitle": "Papa's Doggeria"
-    },
-    "papas-pancakeria": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/papaspancakeria.swf",
-        "imageSrc": "/game/img/papas-pancakeria.png",
-        "gameTitle": "Papa's Pancakeria"
-    },
-    "papas-scooperia": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/papasscooperia.swf",
-        "imageSrc": "https://m.media-amazon.com/images/I/81BoBmWngJL.png",
-        "gameTitle": "Papa's Scooperia"
-    },
-    "gimme-the-airpod": {
-        "pageMapping": "/gimme-the-airpod/",
-        "usecdn": true,
-        "imageSrc": "/game/img/gimme-airpod.png",
-        "gameTitle": "Gimme the Airpod"
-    },
-    "rocket-buddy": {
-        "pageMapping": "/rocket-buddy/",
-        "usecdn": true,
-        "imageSrc": "/game/img/rocketbuddy.png",
-        "gameTitle": "Rocket Buddy"
-    },
-    "tag": {
-        "pageMapping": "/tag/",
-        "usecdn": true,
-        "imageSrc": "/game/img/tag.avif",
-        "gameTitle": "Tag"
-    },
-    "tiny-yurts": {
-        "pageMapping": "/js13k/?tiny-yurts",
-        "usecdn": true,
-        "imageSrc": "/game/img/tiny-yurts.webp",
-        "gameTitle": "Tiny Yurts"
-    },
-    "doge-miner": {
-        "pageMapping": "/doge-miner/",
-        "imageSrc": "/game/img/doge-miner.bmp",
-        "gameTitle": "Doge Miner",
-        "usecdn": true
-    },
-    "flash-sonic": {
-        "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fultimate-flash-sonic.xml",
-        "imageSrc": "https://e.snmc.io/lk/lv/x/1c866fe5a411e74065b43c3cec795696/10319151",
-        "gameTitle": "Ultimate Flash Sonic"
-    },
-    "sonic-revert": {
-        "pageMapping": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@c14b72fdb88d7c697da0f38ed0e9cd0acb3fc4bf/Sonic_Revert.xml",
-        "imageSrc": "/game/img/sonic-revert.png",
-        "gameTitle": "Sonic Revert"
-    },
-    "subway-surfers": {
-        "pageMapping": "/3kh0/3kh0-assets/main/subway-surfers/index.html",
-        "imageSrc": "/game/img/subway-surfers.jpg",
-        "gameTitle": "Subway Surfers",
-        "usegithack": true
-    },
-    "electricman": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/electricman.swf",
-        "imageSrc": "/game/img/electricman.png",
-        "gameTitle": "Electric Man"
-    },
-    "tooncup": {
-        "pageMapping": "https://emea.iframed.cn.dmti.cloud/content/691/toon-cup/game/uk/en.e0732106/index.html",
-        "imageSrc": "/game/img/tooncup.webp",
-        "gameTitle": "Toon Cup"
-    },
-    "pvz-ds": {
-        "pageMapping": "https://www.greenfoot.org/scenarios/31337?embed=true",
-        "imageSrc": "/game/img/pvz-ds.webp",
-        "gameTitle": "Plants vs. Zombies; DS"
-    },
-    "basketball-random": {
-        "pageMapping": "/basketrandom/",
-        "imageSrc": "https://play-lh.googleusercontent.com/gP8T5Z1O-ngxIloiwcBZzrzyLPYDp0R_1BDNKUDZboIRPVImeyWI8-7aExvB9gAGNKc",
-        "usecdn": true,
-        "gameTitle": "Basketball Random"
-    },
-    "jelly-mario": {
-        "pageMapping": "/jellymario/",
-        "imageSrc": "/game/img/jelly-mar.gif",
-        "gameTitle": "Jelly Mario",
-        "usecdn": true
-    },
-    "2048-multitask": {
-        "pageMapping": "/2048-multitask/",
-        "imageSrc": "/game/img/2048-multitask.png",
-        "gameTitle": "2048 Multitask",
-        "usecdn": true
-    },
-    "game-inside-a-game": {
-        "pageMapping": "/game-inside-a-game/",
-        "imageSrc": "https://img.itch.zone/aW1nLzQ1OTUwODcucG5n/original/Xdhfjt.png",
-        "gameTitle": "Game Inside A Game",
-        "usecdn": true
-    },
-    "bottle-flip-3d": {
-        "pageMapping": "/bottle-flip-3d/",
-        "imageSrc": "https://play-lh.googleusercontent.com/sMpJpTPMtTMr9tfusBtbWIz_h2UdX3iwx8Ea4w6vJ-0vyFILvpIMj_JvwVSeS6Xq0bg",
-        "gameTitle": "Bottle Flip 3D",
-        "usecdn": true
-    },
-    "3d-city": {
-        "pageMapping": "/3d-city/",
-        "usecdn": true,
-        "imageSrc": "/game/img/3d-city.jpg",
-        "gameTitle": "3d.city"
-    },
-    "duck-hunt": {
-        "pageMapping": "/duckhunt/",
-        "usecdn": true,
-        "imageSrc": "/game/img/duckhunt.png",
-        "gameTitle": "Duck Hunt"
-    },
-    "tiny-fishing": {
-        "pageMapping": "/tiny-fishing/",
-        "usecdn": true,
-        "imageSrc": "/game/img/tiny-fishing.png",
-        "gameTitle": "Tiny Fishing"
-    },
-    "pizza-tower": {
-        "pageMapping": "/pizzatower/",
-        "usecdn": true,
-        "imageSrc": "/game/img/pizzatower.jpg",
-        "gameTitle": "Pizza Tower"
-    },
-    "btd": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd.swf",
-        "imageSrc": "/game/img/btd.webp",
-        "gameTitle": "Bloon Tower Defense"
-    },
-    "btd2": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd2.swf",
-        "imageSrc": "/game/img/btd2.webp",
-        "gameTitle": "Bloon Tower Defense 2"
-    },
-    "btd3": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd3.swf",
-        "imageSrc": "/game/img/btd3.webp",
-        "gameTitle": "Bloon Tower Defense 3"
-    },
-    "btd4": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd4.swf",
-        "imageSrc": "/game/img/btd4.jpg",
-        "gameTitle": "Bloon Tower Defense 4"
-    },
-    "btd5": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd5.swf",
-        "imageSrc": "/game/img/btd5.webp",
-        "gameTitle": "Bloon Tower Defense 5"
-    },
-    "worlds-hardest-game": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/whg.swf",
-        "imageSrc": "/game/img/whg.png",
-        "gameTitle": "World's Hardest Game"
-    },
-    "worlds-hardest-game-2": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/whg2.swf",
-        "imageSrc": "/game/img/whg2.jpg",
-        "gameTitle": "World's Hardest Game 2"
-    },
-    "worlds-hardest-game-3": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/whg3.swf",
-        "imageSrc": "/game/img/whg3.jpg",
-        "gameTitle": "World's Hardest Game 3"
-    },
-    "dumb-ways-to-die": {
-        "pageMapping": "https://html5.iclouds.io/dumb-ways-die/?ref",
-        "imageSrc": "https://play-lh.googleusercontent.com/jrRzz98Tb0JK1XuO0Yw01Ep1zVQDM14IDl4fq21nMpmt7yAXfXwSF0xlc60Hv_FUAx79",
-        "gameTitle": "Dumb ways to die"
-    },
-    "10-minutes-till-dawn": {
-        "pageMapping": "/3kh0/3kh0-assets/main/10-minutes-till-dawn/index.html",
-        "imageSrc": "/game/img/10-minutes-till-dawn.png",
-        "gameTitle": "10 Minutes Till Dawn",
-        "usegithack": true
-    },
-    "geometry-dash": {
-        "pageMapping": "/gdash/",
-        "usecdn": true,
-        "imageSrc": "/game/img/geometrydash.svg",
-        "gameTitle": "Geometry Dash"
-    },
-    "slope-game": {
-        "pageMapping": "/slope/",
-        "imageSrc": "/game/img/slope.jpg",
-        "usecdn": true,
-        "gameTitle": "Slope"
-    },
-    "slope-2": {
-        "pageMapping": "/slope-2/",
-        "imageSrc": "/game/img/slope2.png",
-        "gameTitle": "Slope 2",
-        "usecdn": true
-    },
-    "slope-3": {
-        "pageMapping": "https://webglmath.github.io/slope3/",
-        "imageSrc": "/game/img/slope3.bmp",
-        "gameTitle": "Slope 3"
-    },
-    "tunnelrush": {
-        "pageMapping": "/tunnel-rush/",
-        "imageSrc": "/game/img/tunnelrush.jpg",
-        "gameTitle": "Tunnel Rush",
-        "usecdn": true
-    },
-    "tunnelrush-2": {
-        "pageMapping": "https://eng-docs-opensocial.googleusercontent.com/gadgets/ifr?url=https://749201648-319375013826385014.preview.editmysite.com/uploads/b/139890129-296476716652996764/files/tr.xml",
-        "imageSrc": "/game/img/tunnelrush2.webp",
-        "gameTitle": "Tunnel Rush 2"
-    },
-    "tomb-of-the-mask": {
-        "pageMapping": "/tombmask/",
-        "imageSrc": "https://play-lh.googleusercontent.com/V3M-ZVyu4NCOR8oxeHEQSrt5LJhu44xlDtIx-d3YnrPCMEvV-lxPJDyWoJkxsS1Soxsx",
-        "gameTitle": "Tomb of the Mask",
-        "usecdn": true
-    },
-    "candy-crush": {
-        "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://830581635-628405001538672842.preview.editmysite.com/uploads/b/139890129-709153476852373754/files/cc.xml",
-        "imageSrc": "/game/img/candycrush.bmp",
-        "gameTitle": "Candy Crush"
-    },
-    "cut-the-rope": {
-        "pageMapping": "/cut-the-rope/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/cut-the-rope/rope.png",
-        "gameTitle": "Cut The Rope"
-    },
-    "cut-the-rope-holiday-gift": {
-        "pageMapping": "/cut-the-rope/holiday-gift/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/cut-the-rope/holiday-gift/k9aatx1o.bmp",
-        "gameTitle": "Cut The Rope: Holiday Gift"
-    },
-    "cut-the-rope-time-travel": {
-        "pageMapping": "/cut-the-rope/time-travel/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/cut-the-rope/time-travel/time.png",
-        "gameTitle": "Cut The Rope: Time Travel"
-    },
-    "google-snake": {
-        "pageMapping": "/0/g/google-snake/",
-        "imageSrc": "https://play-lh.googleusercontent.com/LU72Y-ZB_yLGsIP9-qQVN5jx39k-Zk_YVRWGbZAkNU0mZak2aQHQhf8MM5Z1cE6q7XE",
-        "gameTitle": "Google Snake"
-    },
-    "repuls.io": {
-        "pageMapping": "/repuls/",
-        "usecdn": true,
-        "imageSrc": "/game/img/repuls-io.jpg",
-        "gameTitle": "Repuls.io"
-    },
-    "fnaf": {
-        "pageMapping": "https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/",
-        "imageSrc": "/game/img/fnaf.jpg",
-        "gameTitle": "Five Nights At Freddy's",
-        "eduNotice": true
-    },
-    "fnaf-4": {
-        "pageMapping": "/fnaf-4/",
-        "usecdn": true,
-        "imageSrc": "/game/img/fnaf-4.webp",
-        "gameTitle": "FNAF 4"
-    },
-    "fnf-mid-fight-masses": {
-        "pageMapping": "/fnfmidfight/",
-        "usecdn": true,
-        "imageSrc": "/game/img/fnfmidfight.jpg",
-        "gameTitle": "FNF Mid-Fight Masses"
-    },
-    "fnf-vs-whitty": {
-        "pageMapping": "/fnfvswhitty/",
-        "usecdn": true,
-        "imageSrc": "/game/img/fnf-vs-whitty.jpg",
-        "gameTitle": "FNF vs. Whitty",
-        "description": "Recommended by Joaquin"
-    },
-    "vex-3": {
-        "pageMapping": "/vex-3/",
-        "imageSrc": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/87/06/4e/87064e7a-c9fd-7135-6ba3-f321f013e01e/mzl.kqcjsyop.png/512x512bb.jpg",
-        "usecdn": true,
-        "gameTitle": "Vex 3"
-    },
-    "vex-4": {
-        "pageMapping": "/vex-4/",
-        "usecdn": true,
-        "imageSrc": "/game/img/vex-4.jpg",
-        "gameTitle": "Vex 4"
-    },
-    "vex-5": {
-        "pageMapping": "/vex-5/",
-        "imageSrc": "/game/img/vex-5.jpeg",
-        "usecdn": true,
-        "gameTitle": "Vex 5"
-    },
-    "vex-6": {
-        "pageMapping": "/vex-6/",
-        "usecdn": true,
-        "imageSrc": "/game/img/vex-6.jpeg",
-        "gameTitle": "Vex 6"
-    },
-    "vex-7": {
-        "pageMapping": "/vex-7/",
-        "usecdn": true,
-        "imageSrc": "/game/img/vex-7.jpeg",
-        "gameTitle": "Vex 7"
-    },
-    "masked-forces": {
-        "pageMapping": "https://topvazstore.github.io/g8/masked-forces/",
-        "imageSrc": "/game/img/masked-forces.jpg",
-        "gameTitle": "Masked Forces",
-        "description": "Yes, this game works just give it some time to load."
-    },
-    "idle-startup-tycoon": {
-        "pageMapping": "https://topvazstore.github.io/g5/idle-startup-tycoon/",
-        "imageSrc": "/game/img/idle-startup-tycoon.avif",
-        "gameTitle": "Idle Startup Tycoon"
-    },
-    "tanuki-sunset": {
-        "pageMapping": "https://topvazstore.github.io/g8/tanuki-sunset/",
-        "imageSrc": "/game/img/tanuki-sunset.png",
-        "gameTitle": "Tanuki Sunset"
-    },
-    "stick-defenders": {
-        "pageMapping": "https://topvazstore.github.io/g6/stick-defenders/",
-        "imageSrc": "/game/img/stick-defenders.avif",
-        "gameTitle": "Stick Defenders"
-    },
-    "stick-merge": {
-        "pageMapping": "/stick-merge/",
-        "imageSrc": "/game/img/stickmerge.avif",
-        "gameTitle": "Stick Merge",
-        "usecdn": true
-    },
-    "stick-fighter": {
-        "pageMapping": "/stick-fighter/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/stick-fighter/icons/icon-256.png",
-        "gameTitle": "Stick Fighter"
-    },
-    "swingo": {
-        "pageMapping": "https://topvazstore.github.io/g3/swingo/",
-        "imageSrc": "/game/img/swingo.avif",
-        "gameTitle": "Swingo"
-    },
-    "neon-swing": {
-        "pageMapping": "/neonswing/",
-        "usecdn": true,
-        "imageSrc": "https://play-lh.googleusercontent.com/aUUqrS7i6UFtiG7oQdrfRdyCWN2XXV13DVeJTHmYub7Qdz7lQ6XyGJpB7RaeNlyXPw",
-        "gameTitle": "Neon Swing",
-        "description": "Better Stickman Hook!"
-    },
-    "temple-of-boom": {
-        "pageMapping": "https://topvazstore.github.io/g3/temple-of-boom/",
-        "imageSrc": "/game/img/templeofboom.avif",
-        "gameTitle": "Temple of Boom"
-    },
-    "hello-guys": {
-        "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://362963852-037591742967942863.preview.editmysite.com/uploads/b/139890129-842828255751613847/files/hegu.xml",
-        "imageSrc": "/game/img/helloguys-thumb1.webp",
-        "gameTitle": "Hello Guys"
-    },
-    "stumble-guys": {
-        "pageMapping": "https://selfstudybrain.com/play/kitka-games/7999/stumble-guys",
-        "imageSrc": "/game/img/stumble-guys.png",
-        "gameTitle": "Stumble Guys"
-    },
-    "burnin-rubber-5-xs": {
-        "pageMapping": "https://webglmath.github.io/burnin-rubber-5-xs/",
-        "imageSrc": "/game/img/burnin-rubber-5-xs.avif",
-        "gameTitle": "Burnin Rubber 5 XS"
-    },
-    "burger-and-frights": {
-        "pageMapping": "/burger-frights/",
-        "usecdn": true,
-        "imageSrc": "https://img.itch.zone/aW1nLzY4MDU0NjcucG5n/315x250%23c/Wda88F.png",
-        "gameTitle": "Burger and Frights"
-    },
-    "mad-gunz": {
-        "pageMapping": "https://webglmath.github.io/mad-gunz/",
-        "imageSrc": "https://webglmath.github.io/mad-gunz/logo.png",
-        "gameTitle": "Mad Gunz"
-    },
-    "gun-spin": {
-        "pageMapping": "/gunspin/",
-        "imageSrc": "/game/img/gunspin.png",
-        "gameTitle": "Gun Spin",
-        "usecdn": true
-    },
-    "getaway-shootout": {
-        "pageMapping": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@d2542b2b948a265eddaa25f984368f25fafc1447/g64dh6j/Getaway-Shootout.xml",
-        "imageSrc": "/game/img/getaway-shootout.jpg",
-        "gameTitle": "Getaway Shootout"
-    },
-    "precision-client": {
-        "pageMapping": "/PrecisionClient/game/compiled/web/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/PrecisionClient/game/splash.jpg",
-        "gameTitle": "Precision Client"
-    },
-    "fnaf-2-hacks": {
-        "pageMapping": "/fnaf-2hacks/game/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/fnaf-2hacks/game/splash.png",
-        "gameTitle": "FNAF 2 [HACKS]"
-    },
-    "fnf-mobile": {
-        "pageMapping": "/fnfmobile/game/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/fnfmobile/game/splash.jpg",
-        "gameTitle": "FNF Mobile"
-    },
-    "undertale": {
-        "pageMapping": "/Undertale/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/Undertale/splash2.jpg",
-        "gameTitle": "Undertale Enchanced"
-    },
-    "sans-fight": {
-        "pageMapping": "/sans-fight/",
-        "usecdn": true,
-        "imageSrc": "/game/img/sans-fight.jpg",
-        "gameTitle": "Sans Fight"
-    },
-    "deepest-sword": {
-        "pageMapping": "/deepest-sword/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/deepest-sword/deepest-sword.webp",
-        "gameTitle": "Deepest Sword"
-    },
-    "fnf": {
-        "pageMapping": "/fnf/game/",
-        "usecdn": true,
-        "imageSrc": "https://cdn.nate-games.xyz/fnf/game/fnf.avif",
-        "gameTitle": "Friday Night Funkin'"
-    },
-    "zombs-royale": {
-        "pageMapping": "https://the.deconstructors.co.uk/tmm-zombsroyale/",
-        "imageSrc": "/game/img/zombs-royale.png",
-        "gameTitle": "Zombs Royale"
-    },
-    "valorant": {
-        "pageMapping": "https://games.construct.net/35134/42190/embed.html",
-        "imageSrc": "/game/img/valorant.webp",
-        "gameTitle": "Valorant"
-    },
-    "angrybirds": {
-        "pageMapping": "/angrybirds/AngryBirdsGame.htm",
-        "usecdn": true,
-        "imageSrc": "/game/img/angrybirds.png",
-        "gameTitle": "Angry Birds"
-    },
-    "money-land": {
-        "pageMapping": "https://ubg365.github.io/money-land/",
-        "imageSrc": "/game/img/moneyland.png",
-        "gameTitle": "Money Land"
-    },
-    "master-chess": {
-        "pageMapping": "/master-chess/",
-        "usecdn": true,
-        "imageSrc": "/game/img/master-chess.avif",
-        "gameTitle": "Master Chess"
-    },
-    "stack": {
-        "pageMapping": "/stack/",
-        "imageSrc": "/game/img/stack.png",
-        "gameTitle": "Stack",
-        "usecdn": true
-    },
-    "drift-hunters": {
-        "pageMapping": "https://topvazstore.github.io/g/drift-hunters/",
-        "imageSrc": "/game/img/drift-hunters.png",
-        "gameTitle": "Drift Hunters",
-        "description": ""
-    },
-    "4th-and-goal-2022": {
-        "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://284711640-164027483921740274.preview.editmysite.com/uploads/b/139890129-601329693740539694/files/4g22.xml",
-        "imageSrc": "/game/img/4th-and-goal-2022.avif",
-        "gameTitle": "4th and Goal 2022"
-    },
-    "combat-reloaded": {
-        "pageMapping": "https://nadgames.com/WebGL/Combat_Reloaded/embed/",
-        "imageSrc": "/game/img/combat-reloaded.png",
-        "gameTitle": "Combat Reloaded"
-    },
-    "nut-simulator": {
-        "pageMapping": "/nutsimulator/",
-        "usecdn": true,
-        "imageSrc": "/game/img/nutsim.jpg",
-        "gameTitle": "Nut Simulator"
-    },
-    "nut-simulator-hacks": {
-        "pageMapping": "/hacked-nutsimulator/",
-        "usecdn": true,
-        "imageSrc": "/game/img/nutsim.jpg",
-        "gameTitle": "Nut Simulator [Hacked]"
-    },
-    "circle": {
-        "pageMapping": "/circle/",
-        "imageSrc": "/game/img/circle.png",
-        "gameTitle": "Circle",
-        "usecdn": true
-    },
-    "bouncy-basketball": {
-        "pageMapping": "/0/g/bouncybasketball/",
-        "imageSrc": "/game/img/bouncy-basketball.avif",
-        "gameTitle": "Bouncy Basketball"
-    },
-    "hexgl": {
-        "pageMapping": "/0/g/HexGL/",
-        "imageSrc": "/game/img/hexgl.bmp",
-        "gameTitle": "HexGL"
-    },
-    "hextris": {
-        "pageMapping": "/0/g/Hextris/",
-        "imageSrc": "/game/img/hextris.webp",
-        "gameTitle": "Hextris"
-    },
-    "tetris": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/tetris.swf",
-        "imageSrc": "https://play-lh.googleusercontent.com/za2Nu_qjMw5GzWfbzet4zeiZT1xvJlTRi4NJzGpJWX9grxFAAko5dGBwe7qeqK01THw",
-        "gameTitle": "Tetris"
-    },
-    "henry-stickmin": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/henry-stickmin1.swf",
-        "imageSrc": "/game/img/hs.bmp",
-        "gameTitle": "Henry Stickmin"
-    },
-    "henry-stickmin-2": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/henry-stickmin2.swf",
-        "imageSrc": "/game/img/hs2.bmp",
-        "gameTitle": "Henry Stickmin 2"
-    },
-    "henry-stickmin-3": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/henry-stickmin3.swf",
-        "imageSrc": "/game/img/hs3.bmp",
-        "gameTitle": "Henry Stickmin 3"
-    },
-    "henry-stickmin-4": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=https://coolgames4life.weebly.com/uploads/2/6/6/2/26620269/infiltratingtheairshipgame.swf",
-        "imageSrc": "/game/img/hs4.bmp",
-        "gameTitle": "Henry Stickmin 4"
-    },
-    "henry-stickmin-5": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=https://the-sour-patch-kids.github.io/our-website/assets/gfiles/Henry%20Stickmin%20-%20Breaking%20the%20Bank.swf",
-        "imageSrc": "/game/img/hs5.bmp",
-        "gameTitle": "Henry Stickmin 5"
-    },
-    "the-impossible-quiz": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/the_impossible_quiz.swf",
-        "imageSrc": "/game/img/the-impossible-quiz.avif",
-        "gameTitle": "The Impossible Quiz"
-    },
-    "dad-n-me": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/dad-n-me.swf",
-        "imageSrc": "/game/img/dad-n-me.webp",
-        "gameTitle": "Dad 'n Me"
-    },
-    "alien-hominid": {
-        "pageMapping": "/flash-loader/dynamic-loader?swf=files/alienhominid.swf",
-        "imageSrc": "/game/img/alienhominid.jpg",
-        "gameTitle": "Alien Hominid"
-    },
-    "paperio-2": {
-        "pageMapping": "/paperio2/",
-        "imageSrc": "/game/img/paperio-2.avif",
-        "gameTitle": "Paper.io 2",
-        "usecdn": true
-    },
-    "paperio-3d": {
-        "pageMapping": "/paperio3d/",
-        "imageSrc": "/game/img/paperio-3d.jpg",
-        "gameTitle": "Paper.io 3D",
-        "usecdn": true
-    },
-    "flappy-bird": {
-        "pageMapping": "/flappybird/",
-        "imageSrc": "/game/img/flappy-bird.png",
-        "gameTitle": "Flappy Bird",
-        "usecdn": true
-    },
-    "demolition-derby-3": {
-        "pageMapping": "/0/g/demolition-derby-3/",
-        "imageSrc": "/game/img/demolition-derby-3.png",
-        "gameTitle": "Demolition Derby 3"
-    },
-    "funny-shooter": {
-        "pageMapping": "/0/g/funny-shooter/",
-        "imageSrc": "/game/img/funnyshooter-thumb.png",
-        "gameTitle": "Funny Shooter"
-    },
-    "funny-shooter-2": {
-        "pageMapping": "https://smartfoloolol.netlify.app/assets/funny-shooter-2/",
-        "imageSrc": "/game/img/funnyshooter2.png",
-        "gameTitle": "Funny Shooter 2"
-    },
-    "bitlife": {
-        "pageMapping": "/0/g/bitlife/",
-        "imageSrc": "/game/img/bitlife.png",
-        "gameTitle": "BitLife"
-    },
-    "monkeymart": {
-        "pageMapping": "/0/g/monkeymart/",
-        "imageSrc": "/game/img/monkeymart.jpg",
-        "gameTitle": "Monkey Mart"
-    },
-    "big-neon-tower-vs-tiny-square": {
-        "pageMapping": "/big-neon-tower-vs-tiny-square/",
-        "usecdn": true,
-        "imageSrc": "/game/img/big-neon-tower.jpg",
-        "gameTitle": "Big neon tower vs. Tiny Square"
-    },
-    "ovo3": {
-        "pageMapping": "/ovo3/",
-        "imageSrc": "/game/img/ovo3.avif",
-        "gameTitle": "OvO 3 - Dimensions",
-        "usecdn": true
-    },
-    "backrooms": {
-        "pageMapping": "/backrooms/",
-        "imageSrc": "/game/img/backrooms.jpg",
-        "gameTitle": "Backrooms",
-        "description": "We have heard you.",
-        "usecdn": true
-    }
+  "dev": {
+    "pageMapping": "/dev",
+    "gameTitle": "Developer mode",
+    "imageSrc": "/game/classlink.png"
+  },
+  "1v1.lol": {
+    "pageMapping": "https://cdn.nate-games.xyz/1v1lol/",
+    "gameTitle": "1v1.LOL",
+    "imageSrc": "/game/img/1v1lol.jpg"
+  },
+  "justfall.lol": {
+    "pageMapping": "https://cdn.nate-games.xyz/just-fall/",
+    "imageSrc": "/game/img/justfall.png",
+    "gameTitle": "JustFall.LOL"
+  },
+  "adventure-capitalist": {
+    "pageMapping": "https://2851fd36-5096-49a9-b9c7-64c837446e86.id.repl.co",
+    "imageSrc": "/game/img/adventure-capitalist.jpg",
+    "gameTitle": "AdVenture Capitalist!"
+  },
+  "cluster-rush": {
+    "pageMapping": "/cluster-rush/",
+    "imageSrc": "/game/img/cluster-rush.png",
+    "gameTitle": "Cluster Rush",
+    "usecdn": true
+  },
+  "doodle-jump": {
+    "pageMapping": "/doodle-jump/",
+    "imageSrc": "/game/img/doodle-jump.png",
+    "gameTitle": "Doodle Jump",
+    "usecdn": true
+  },
+  "octocat-jump": {
+    "pageMapping": "https://cdn.nate-games.xyz/octocat-jump/",
+    "imageSrc": "/game/img/octocat-jump.png",
+    "gameTitle": "Octocat Jump"
+  },
+  "1": {
+    "pageMapping": "https://cdn.nate-games.xyz/1/",
+    "imageSrc": "/game/img/1.png",
+    "gameTitle": "1"
+  },
+  "2048": {
+    "pageMapping": "https://cdn.nate-games.xyz/2048/",
+    "imageSrc": "/game/img/2048.png",
+    "gameTitle": "2048"
+  },
+  "wings.io": {
+    "pageMapping": "https://wings.io",
+    "imageSrc": "/game/img/wings-io.png",
+    "gameTitle": "Wings.io"
+  },
+  "reblox-client": {
+    "pageMapping": "https://cdn.nate-games.xyz/reblox-client/",
+    "imageSrc": "/game/img/reblox-client.jpg",
+    "gameTitle": "Reblox Client",
+    "description": "Only OG nate-gamers remember the original version"
+  },
+  "papas-burgeria": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/papasburgeria.swf",
+    "imageSrc": "https://play-lh.googleusercontent.com/rHJuY78XSJrhbaW39aYNhViggnzCgR5Zu-xfIx7Sga0Y3Tv3iIuGIIgvEMqfI5Kn",
+    "gameTitle": "Papa's Burgeria"
+  },
+  "papas-doggeria": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=https://cdn.jsdelivr.net/gh/AndreajnRcm4/d4g62dgv5a@f32beddc27cf3b81ecbeac4d6250faa864afd60f/dt/39.swf",
+    "imageSrc": "/game/img/papas-doggeria.png",
+    "gameTitle": "Papa's Doggeria"
+  },
+  "papas-pancakeria": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/papaspancakeria.swf",
+    "imageSrc": "/game/img/papas-pancakeria.png",
+    "gameTitle": "Papa's Pancakeria"
+  },
+  "papas-scooperia": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/papasscooperia.swf",
+    "imageSrc": "https://m.media-amazon.com/images/I/81BoBmWngJL.png",
+    "gameTitle": "Papa's Scooperia"
+  },
+  "gimme-the-airpod": {
+    "pageMapping": "/gimme-the-airpod/",
+    "usecdn": true,
+    "imageSrc": "/game/img/gimme-airpod.png",
+    "gameTitle": "Gimme the Airpod"
+  },
+  "rocket-buddy": {
+    "pageMapping": "/rocket-buddy/",
+    "usecdn": true,
+    "imageSrc": "/game/img/rocketbuddy.png",
+    "gameTitle": "Rocket Buddy"
+  },
+  "tag": {
+    "pageMapping": "/tag/",
+    "usecdn": true,
+    "imageSrc": "/game/img/tag.avif",
+    "gameTitle": "Tag"
+  },
+  "tiny-yurts": {
+    "pageMapping": "/js13k/?tiny-yurts",
+    "usecdn": true,
+    "imageSrc": "/game/img/tiny-yurts.webp",
+    "gameTitle": "Tiny Yurts"
+  },
+  "doge-miner": {
+    "pageMapping": "/doge-miner/",
+    "imageSrc": "/game/img/doge-miner.bmp",
+    "gameTitle": "Doge Miner",
+    "usecdn": true
+  },
+  "flash-sonic": {
+    "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fultimate-flash-sonic.xml",
+    "imageSrc": "https://e.snmc.io/lk/lv/x/1c866fe5a411e74065b43c3cec795696/10319151",
+    "gameTitle": "Ultimate Flash Sonic"
+  },
+  "sonic-revert": {
+    "pageMapping": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@c14b72fdb88d7c697da0f38ed0e9cd0acb3fc4bf/Sonic_Revert.xml",
+    "imageSrc": "/game/img/sonic-revert.png",
+    "gameTitle": "Sonic Revert"
+  },
+  "subway-surfers": {
+    "pageMapping": "/3kh0/3kh0-assets/main/subway-surfers/index.html",
+    "imageSrc": "/game/img/subway-surfers.jpg",
+    "gameTitle": "Subway Surfers",
+    "usegithack": true
+  },
+  "electricman": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/electricman.swf",
+    "imageSrc": "/game/img/electricman.png",
+    "gameTitle": "Electric Man"
+  },
+  "tooncup": {
+    "pageMapping": "https://emea.iframed.cn.dmti.cloud/content/691/toon-cup/game/uk/en.e0732106/index.html",
+    "imageSrc": "/game/img/tooncup.webp",
+    "gameTitle": "Toon Cup"
+  },
+  "plants-vs-zombies": {
+    "pageMapping": "/files/uploads/games/plants-vs-zombies/",
+    "imageSrc": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/IPodTouchicon4.png",
+    "gameTitle": "Plants vs. Zombies",
+    "usecdn": true
+  },
+  "basketball-random": {
+    "pageMapping": "/basketrandom/",
+    "imageSrc": "https://play-lh.googleusercontent.com/gP8T5Z1O-ngxIloiwcBZzrzyLPYDp0R_1BDNKUDZboIRPVImeyWI8-7aExvB9gAGNKc",
+    "usecdn": true,
+    "gameTitle": "Basketball Random"
+  },
+  "jelly-mario": {
+    "pageMapping": "/jellymario/",
+    "imageSrc": "/game/img/jelly-mar.gif",
+    "gameTitle": "Jelly Mario",
+    "usecdn": true
+  },
+  "sm63": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/sm63.swf",
+    "imageSrc": "/game/img/sm63.jpg",
+    "gameTitle": "Super Mario 63"
+  },
+  "2048-multitask": {
+    "pageMapping": "/2048-multitask/",
+    "imageSrc": "/game/img/2048-multitask.png",
+    "gameTitle": "2048 Multitask",
+    "usecdn": true
+  },
+  "game-inside-a-game": {
+    "pageMapping": "/game-inside-a-game/",
+    "imageSrc": "https://img.itch.zone/aW1nLzQ1OTUwODcucG5n/original/Xdhfjt.png",
+    "gameTitle": "Game Inside A Game",
+    "usecdn": true
+  },
+  "bottle-flip-3d": {
+    "pageMapping": "/bottle-flip-3d/",
+    "imageSrc": "https://play-lh.googleusercontent.com/sMpJpTPMtTMr9tfusBtbWIz_h2UdX3iwx8Ea4w6vJ-0vyFILvpIMj_JvwVSeS6Xq0bg",
+    "gameTitle": "Bottle Flip 3D",
+    "usecdn": true
+  },
+  "cookie-clicker": {
+    "pageMapping": "/3kh0/3kh0-assets/main/cookie-clicker/index.html",
+    "imageSrc": "/game/img/cookie-clicker.png",
+    "gameTitle": "Cookie Clicker",
+    "usegithack": true
+  },
+  "duck-hunt": {
+    "pageMapping": "/duckhunt/",
+    "usecdn": true,
+    "imageSrc": "/game/img/duckhunt.png",
+    "gameTitle": "Duck Hunt"
+  },
+  "tiny-fishing": {
+    "pageMapping": "/tiny-fishing/",
+    "usecdn": true,
+    "imageSrc": "/game/img/tiny-fishing.png",
+    "gameTitle": "Tiny Fishing"
+  },
+  "pizza-tower": {
+    "pageMapping": "/pizzatower/",
+    "usecdn": true,
+    "imageSrc": "/game/img/pizzatower.jpg",
+    "gameTitle": "Pizza Tower"
+  },
+  "btd": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd.swf",
+    "imageSrc": "/game/img/btd.webp",
+    "gameTitle": "Bloon Tower Defense"
+  },
+  "btd2": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd2.swf",
+    "imageSrc": "/game/img/btd2.webp",
+    "gameTitle": "Bloon Tower Defense 2"
+  },
+  "btd3": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd3.swf",
+    "imageSrc": "/game/img/btd3.webp",
+    "gameTitle": "Bloon Tower Defense 3"
+  },
+  "btd4": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd4.swf",
+    "imageSrc": "/game/img/btd4.jpg",
+    "gameTitle": "Bloon Tower Defense 4"
+  },
+  "btd5": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/btd5.swf",
+    "imageSrc": "/game/img/btd5.webp",
+    "gameTitle": "Bloon Tower Defense 5"
+  },
+  "worlds-hardest-game": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/whg.swf",
+    "imageSrc": "/game/img/whg.png",
+    "gameTitle": "World's Hardest Game"
+  },
+  "worlds-hardest-game-2": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/whg2.swf",
+    "imageSrc": "/game/img/whg2.jpg",
+    "gameTitle": "World's Hardest Game 2"
+  },
+  "worlds-hardest-game-3": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/whg3.swf",
+    "imageSrc": "/game/img/whg3.jpg",
+    "gameTitle": "World's Hardest Game 3"
+  },
+  "dumb-ways-to-die": {
+    "pageMapping": "https://html5.iclouds.io/dumb-ways-die/?ref",
+    "imageSrc": "https://play-lh.googleusercontent.com/jrRzz98Tb0JK1XuO0Yw01Ep1zVQDM14IDl4fq21nMpmt7yAXfXwSF0xlc60Hv_FUAx79",
+    "gameTitle": "Dumb ways to die"
+  },
+  "10-minutes-till-dawn": {
+    "pageMapping": "/3kh0/3kh0-assets/main/10-minutes-till-dawn/index.html",
+    "imageSrc": "/game/img/10-minutes-till-dawn.png",
+    "gameTitle": "10 Minutes Till Dawn",
+    "usegithack": true
+  },
+  "geometry-dash": {
+    "pageMapping": "/gdash/",
+    "usecdn": true,
+    "imageSrc": "/game/img/geometrydash.svg",
+    "gameTitle": "Geometry Dash"
+  },
+  "slope-game": {
+    "pageMapping": "/slope/",
+    "imageSrc": "/game/img/slope.jpg",
+    "usecdn": true,
+    "gameTitle": "Slope"
+  },
+  "slope-2": {
+    "pageMapping": "/slope-2/",
+    "imageSrc": "/game/img/slope2.png",
+    "gameTitle": "Slope 2",
+    "usecdn": true
+  },
+  "slope-3": {
+    "pageMapping": "https://webglmath.github.io/slope3/",
+    "imageSrc": "/game/img/slope3.bmp",
+    "gameTitle": "Slope 3"
+  },
+  "tunnelrush": {
+    "pageMapping": "/tunnel-rush/",
+    "imageSrc": "/game/img/tunnelrush.jpg",
+    "gameTitle": "Tunnel Rush",
+    "usecdn": true
+  },
+  "tunnelrush-2": {
+    "pageMapping": "https://eng-docs-opensocial.googleusercontent.com/gadgets/ifr?url=https://749201648-319375013826385014.preview.editmysite.com/uploads/b/139890129-296476716652996764/files/tr.xml",
+    "imageSrc": "/game/img/tunnelrush2.webp",
+    "gameTitle": "Tunnel Rush 2"
+  },
+  "tomb-of-the-mask": {
+    "pageMapping": "/tombmask/",
+    "imageSrc": "https://play-lh.googleusercontent.com/V3M-ZVyu4NCOR8oxeHEQSrt5LJhu44xlDtIx-d3YnrPCMEvV-lxPJDyWoJkxsS1Soxsx",
+    "gameTitle": "Tomb of the Mask",
+    "usecdn": true
+  },
+  "candy-crush": {
+    "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://830581635-628405001538672842.preview.editmysite.com/uploads/b/139890129-709153476852373754/files/cc.xml",
+    "imageSrc": "/game/img/candycrush.bmp",
+    "gameTitle": "Candy Crush"
+  },
+  "cut-the-rope": {
+    "pageMapping": "/cut-the-rope/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/cut-the-rope/rope.png",
+    "gameTitle": "Cut The Rope"
+  },
+  "cut-the-rope-holiday-gift": {
+    "pageMapping": "/cut-the-rope/holiday-gift/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/cut-the-rope/holiday-gift/k9aatx1o.bmp",
+    "gameTitle": "Cut The Rope: Holiday Gift"
+  },
+  "cut-the-rope-time-travel": {
+    "pageMapping": "/cut-the-rope/time-travel/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/cut-the-rope/time-travel/time.png",
+    "gameTitle": "Cut The Rope: Time Travel"
+  },
+  "google-snake": {
+    "pageMapping": "/files/uploads/games/google-snake/",
+    "imageSrc": "https://play-lh.googleusercontent.com/LU72Y-ZB_yLGsIP9-qQVN5jx39k-Zk_YVRWGbZAkNU0mZak2aQHQhf8MM5Z1cE6q7XE",
+    "gameTitle": "Google Snake",
+    "usecdn": true
+  },
+  "slither-io": {
+    "pageMapping": "https://slither.io",
+    "imageSrc": "https://play-lh.googleusercontent.com/LU72Y-ZB_yLGsIP9-qQVN5jx39k-Zk_YVRWGbZAkNU0mZak2aQHQhf8MM5Z1cE6q7XE",
+    "gameTitle": "Google Snake",
+    "usecdn": true
+  },
+  "repuls.io": {
+    "pageMapping": "/repuls/",
+    "usecdn": true,
+    "imageSrc": "/game/img/repuls-io.jpg",
+    "gameTitle": "Repuls.io"
+  },
+  "fnaf": {
+    "pageMapping": "https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/",
+    "imageSrc": "/game/img/fnaf.jpg",
+    "gameTitle": "Five Nights At Freddy's",
+    "eduNotice": true
+  },
+  "fnaf-4": {
+    "pageMapping": "/fnaf-4/",
+    "usecdn": true,
+    "imageSrc": "/game/img/fnaf-4.webp",
+    "gameTitle": "FNAF 4"
+  },
+  "fnf-mid-fight-masses": {
+    "pageMapping": "/fnfmidfight/",
+    "usecdn": true,
+    "imageSrc": "/game/img/fnfmidfight.jpg",
+    "gameTitle": "FNF Mid-Fight Masses"
+  },
+  "fnf-vs-whitty": {
+    "pageMapping": "/fnfvswhitty/",
+    "usecdn": true,
+    "imageSrc": "/game/img/fnf-vs-whitty.jpg",
+    "gameTitle": "FNF vs. Whitty",
+    "description": "Recommended by Joaquin"
+  },
+  "vex-3": {
+    "pageMapping": "/vex-3/",
+    "imageSrc": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/87/06/4e/87064e7a-c9fd-7135-6ba3-f321f013e01e/mzl.kqcjsyop.png/512x512bb.jpg",
+    "usecdn": true,
+    "gameTitle": "Vex 3"
+  },
+  "vex-4": {
+    "pageMapping": "/vex-4/",
+    "usecdn": true,
+    "imageSrc": "/game/img/vex-4.jpg",
+    "gameTitle": "Vex 4"
+  },
+  "vex-5": {
+    "pageMapping": "/vex-5/",
+    "imageSrc": "/game/img/vex-5.jpeg",
+    "usecdn": true,
+    "gameTitle": "Vex 5"
+  },
+  "vex-6": {
+    "pageMapping": "/vex-6/",
+    "usecdn": true,
+    "imageSrc": "/game/img/vex-6.jpeg",
+    "gameTitle": "Vex 6"
+  },
+  "vex-7": {
+    "pageMapping": "/vex-7/",
+    "usecdn": true,
+    "imageSrc": "/game/img/vex-7.jpeg",
+    "gameTitle": "Vex 7"
+  },
+  "masked-forces": {
+    "pageMapping": "https://topvazstore.github.io/g8/masked-forces/",
+    "imageSrc": "/game/img/masked-forces.jpg",
+    "gameTitle": "Masked Forces",
+    "description": "Yes, this game works just give it some time to load."
+  },
+  "idle-startup-tycoon": {
+    "pageMapping": "https://topvazstore.github.io/g5/idle-startup-tycoon/",
+    "imageSrc": "/game/img/idle-startup-tycoon.avif",
+    "gameTitle": "Idle Startup Tycoon"
+  },
+  "tanuki-sunset": {
+    "pageMapping": "https://topvazstore.github.io/g8/tanuki-sunset/",
+    "imageSrc": "/game/img/tanuki-sunset.png",
+    "gameTitle": "Tanuki Sunset"
+  },
+  "stick-defenders": {
+    "pageMapping": "https://topvazstore.github.io/g6/stick-defenders/",
+    "imageSrc": "/game/img/stick-defenders.avif",
+    "gameTitle": "Stick Defenders"
+  },
+  "stick-merge": {
+    "pageMapping": "/stick-merge/",
+    "imageSrc": "/game/img/stickmerge.avif",
+    "gameTitle": "Stick Merge",
+    "usecdn": true
+  },
+  "stick-fighter": {
+    "pageMapping": "/stick-fighter/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/stick-fighter/icons/icon-256.png",
+    "gameTitle": "Stick Fighter"
+  },
+  "swingo": {
+    "pageMapping": "https://topvazstore.github.io/g3/swingo/",
+    "imageSrc": "/game/img/swingo.avif",
+    "gameTitle": "Swingo"
+  },
+  "stickman-hook": {
+    "pageMapping": "/files/uploads/games/stickman-hook/",
+    "usecdn": true,
+    "imageSrc": "/game/img/stickman-hook.jpg",
+    "gameTitle": "Stickman Hook"
+  },
+  "neon-swing": {
+    "pageMapping": "/neonswing/",
+    "usecdn": true,
+    "imageSrc": "https://play-lh.googleusercontent.com/aUUqrS7i6UFtiG7oQdrfRdyCWN2XXV13DVeJTHmYub7Qdz7lQ6XyGJpB7RaeNlyXPw",
+    "gameTitle": "Neon Swing",
+    "description": "Better Stickman Hook!"
+  },
+  "temple-of-boom": {
+    "pageMapping": "https://topvazstore.github.io/g3/temple-of-boom/",
+    "imageSrc": "/game/img/templeofboom.avif",
+    "gameTitle": "Temple of Boom"
+  },
+  "hello-guys": {
+    "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://362963852-037591742967942863.preview.editmysite.com/uploads/b/139890129-842828255751613847/files/hegu.xml",
+    "imageSrc": "/game/img/helloguys-thumb1.webp",
+    "gameTitle": "Hello Guys"
+  },
+  "stumble-guys": {
+    "pageMapping": "https://selfstudybrain.com/play/kitka-games/7999/stumble-guys",
+    "imageSrc": "/game/img/stumble-guys.png",
+    "gameTitle": "Stumble Guys"
+  },
+  "burnin-rubber-5-xs": {
+    "pageMapping": "https://webglmath.github.io/burnin-rubber-5-xs/",
+    "imageSrc": "/game/img/burnin-rubber-5-xs.avif",
+    "gameTitle": "Burnin Rubber 5 XS"
+  },
+  "burger-and-frights": {
+    "pageMapping": "/burger-frights/",
+    "usecdn": true,
+    "imageSrc": "https://img.itch.zone/aW1nLzY4MDU0NjcucG5n/315x250%23c/Wda88F.png",
+    "gameTitle": "Burger and Frights"
+  },
+  "mad-gunz": {
+    "pageMapping": "https://webglmath.github.io/mad-gunz/",
+    "imageSrc": "https://webglmath.github.io/mad-gunz/logo.png",
+    "gameTitle": "Mad Gunz"
+  },
+  "gun-spin": {
+    "pageMapping": "/gunspin/",
+    "imageSrc": "/game/img/gunspin.png",
+    "gameTitle": "Gun Spin",
+    "usecdn": true
+  },
+  "getaway-shootout": {
+    "pageMapping": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@d2542b2b948a265eddaa25f984368f25fafc1447/g64dh6j/Getaway-Shootout.xml",
+    "imageSrc": "/game/img/getaway-shootout.jpg",
+    "gameTitle": "Getaway Shootout"
+  },
+  "precision-client": {
+    "pageMapping": "/PrecisionClient/game/compiled/web/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/PrecisionClient/game/splash.jpg",
+    "gameTitle": "Precision Client"
+  },
+  "fnaf-2-hacks": {
+    "pageMapping": "/fnaf-2hacks/game/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/fnaf-2hacks/game/splash.png",
+    "gameTitle": "FNAF 2 [HACKS]"
+  },
+  "fnf-mobile": {
+    "pageMapping": "/fnfmobile/game/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/fnfmobile/game/splash.jpg",
+    "gameTitle": "FNF Mobile"
+  },
+  "undertale": {
+    "pageMapping": "/Undertale/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/Undertale/splash2.jpg",
+    "gameTitle": "Undertale Enchanced"
+  },
+  "sans-fight": {
+    "pageMapping": "/sans-fight/",
+    "usecdn": true,
+    "imageSrc": "/game/img/sans-fight.jpg",
+    "gameTitle": "Sans Fight"
+  },
+  "deepest-sword": {
+    "pageMapping": "/deepest-sword/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/deepest-sword/deepest-sword.webp",
+    "gameTitle": "Deepest Sword"
+  },
+  "fnf": {
+    "pageMapping": "/fnf/game/",
+    "usecdn": true,
+    "imageSrc": "https://cdn.nate-games.xyz/fnf/game/fnf.avif",
+    "gameTitle": "Friday Night Funkin'"
+  },
+  "zombs-royale": {
+    "pageMapping": "https://the.deconstructors.co.uk/tmm-zombsroyale/",
+    "imageSrc": "/game/img/zombs-royale.png",
+    "gameTitle": "Zombs Royale"
+  },
+  "valorant": {
+    "pageMapping": "https://games.construct.net/35134/42190/embed.html",
+    "imageSrc": "/game/img/valorant.webp",
+    "gameTitle": "Valorant"
+  },
+  "crossy-road": {
+    "pageMapping": "/files/uploads/games/crossy-road/",
+    "usecdn": true,
+    "imageSrc": "https://play-lh.googleusercontent.com/2yH_JCxn7D9FttXZViPhmvIEDfRhio5qdLdWJLxcIfh8PjIkVeBgt_Gj7q21dIRp97g",
+    "gameTitle": "Crossy Road"
+  },
+  "angrybirds": {
+    "pageMapping": "/files/uploads/games/angrybirds/AngryBirdsGame.htm",
+    "usecdn": true,
+    "imageSrc": "/game/img/angrybirds.png",
+    "gameTitle": "Angry Birds"
+  },
+  "angrybirds-webgl": {
+    "pageMapping": "/files/uploads/games/angrybirds-webgl/",
+    "usecdn": true,
+    "imageSrc": "https://static.wikia.nocookie.net/angrybirds/images/b/bd/AB_Reloaded_Icon.png",
+    "gameTitle": "Angry Birds (WebGL)"
+  },
+  "among-us": {
+    "pageMapping": "/files/uploads/games/among-us/",
+    "usecdn": true,
+    "imageSrc": "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec=w240-h480-rw",
+    "gameTitle": "Among Us"
+  },
+  "money-land": {
+    "pageMapping": "https://ubg365.github.io/money-land/",
+    "imageSrc": "/game/img/moneyland.png",
+    "gameTitle": "Money Land"
+  },
+  "master-chess": {
+    "pageMapping": "/master-chess/",
+    "usecdn": true,
+    "imageSrc": "/game/img/master-chess.avif",
+    "gameTitle": "Master Chess"
+  },
+  "stack": {
+    "pageMapping": "/stack/",
+    "imageSrc": "/game/img/stack.png",
+    "gameTitle": "Stack",
+    "usecdn": true
+  },
+  "drift-hunters": {
+    "pageMapping": "https://topvazstore.github.io/g/drift-hunters/",
+    "imageSrc": "/game/img/drift-hunters.png",
+    "gameTitle": "Drift Hunters",
+    "description": ""
+  },
+  "4th-and-goal-2022": {
+    "pageMapping": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://284711640-164027483921740274.preview.editmysite.com/uploads/b/139890129-601329693740539694/files/4g22.xml",
+    "imageSrc": "/game/img/4th-and-goal-2022.avif",
+    "gameTitle": "4th and Goal 2022"
+  },
+  "combat-reloaded": {
+    "pageMapping": "https://nadgames.com/WebGL/Combat_Reloaded/embed/",
+    "imageSrc": "/game/img/combat-reloaded.png",
+    "gameTitle": "Combat Reloaded"
+  },
+  "nut-simulator": {
+    "pageMapping": "/nutsimulator/",
+    "usecdn": true,
+    "imageSrc": "/game/img/nutsim.jpg",
+    "gameTitle": "Nut Simulator"
+  },
+  "nut-simulator-hacks": {
+    "pageMapping": "/hacked-nutsimulator/",
+    "usecdn": true,
+    "imageSrc": "/game/img/nutsim.jpg",
+    "gameTitle": "Nut Simulator [Hacked]"
+  },
+  "circle": {
+    "pageMapping": "/circle/",
+    "imageSrc": "/game/img/circle.png",
+    "gameTitle": "Circle",
+    "usecdn": true
+  },
+  "bouncy-basketball": {
+    "pageMapping": "/files/uploads/games/bouncybasketball/",
+    "imageSrc": "/game/img/bouncy-basketball.avif",
+    "gameTitle": "Bouncy Basketball",
+    "usecdn": true
+  },
+  "basketball-stars": {
+    "pageMapping": "https://watchdocumentaries.com/wp-content/uploads/games/basketball-stars/",
+    "imageSrc": "/game/img/basketball-stars.png",
+    "gameTitle": "Basketball Stars"
+  },
+  "hexgl": {
+    "pageMapping": "/0/g/HexGL/",
+    "imageSrc": "/game/img/hexgl.bmp",
+    "gameTitle": "HexGL"
+  },
+  "hextris": {
+    "pageMapping": "/0/g/Hextris/",
+    "imageSrc": "/game/img/hextris.webp",
+    "gameTitle": "Hextris"
+  },
+  "tetris": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/tetris.swf",
+    "imageSrc": "https://play-lh.googleusercontent.com/za2Nu_qjMw5GzWfbzet4zeiZT1xvJlTRi4NJzGpJWX9grxFAAko5dGBwe7qeqK01THw",
+    "gameTitle": "Tetris"
+  },
+  "henry-stickmin": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/henry-stickmin1.swf",
+    "imageSrc": "/game/img/hs.bmp",
+    "gameTitle": "Henry Stickmin"
+  },
+  "henry-stickmin-2": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/henry-stickmin2.swf",
+    "imageSrc": "/game/img/hs2.bmp",
+    "gameTitle": "Henry Stickmin 2"
+  },
+  "henry-stickmin-3": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/henry-stickmin3.swf",
+    "imageSrc": "/game/img/hs3.bmp",
+    "gameTitle": "Henry Stickmin 3"
+  },
+  "henry-stickmin-4": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=https://coolgames4life.weebly.com/uploads/2/6/6/2/26620269/infiltratingtheairshipgame.swf",
+    "imageSrc": "/game/img/hs4.bmp",
+    "gameTitle": "Henry Stickmin 4"
+  },
+  "henry-stickmin-5": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=https://the-sour-patch-kids.github.io/our-website/assets/gfiles/Henry%20Stickmin%20-%20Breaking%20the%20Bank.swf",
+    "imageSrc": "/game/img/hs5.bmp",
+    "gameTitle": "Henry Stickmin 5"
+  },
+  "the-impossible-quiz": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/the_impossible_quiz.swf",
+    "imageSrc": "/game/img/the-impossible-quiz.avif",
+    "gameTitle": "The Impossible Quiz"
+  },
+  "dad-n-me": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/dad-n-me.swf",
+    "imageSrc": "/game/img/dad-n-me.webp",
+    "gameTitle": "Dad 'n Me"
+  },
+  "alien-hominid": {
+    "pageMapping": "/flash-loader/dynamic-loader?swf=files/alienhominid.swf",
+    "imageSrc": "/game/img/alienhominid.jpg",
+    "gameTitle": "Alien Hominid"
+  },
+  "paperio-2": {
+    "pageMapping": "/paperio2/",
+    "imageSrc": "/game/img/paperio-2.avif",
+    "gameTitle": "Paper.io 2",
+    "usecdn": true
+  },
+  "paperio-3d": {
+    "pageMapping": "/paperio3d/",
+    "imageSrc": "/game/img/paperio-3d.jpg",
+    "gameTitle": "Paper.io 3D",
+    "usecdn": true
+  },
+  "flappy-bird": {
+    "pageMapping": "/flappybird/",
+    "imageSrc": "/game/img/flappy-bird.png",
+    "gameTitle": "Flappy Bird",
+    "usecdn": true
+  },
+  "demolition-derby-3": {
+    "pageMapping": "/0/g/demolition-derby-3/",
+    "imageSrc": "/game/img/demolition-derby-3.png",
+    "gameTitle": "Demolition Derby 3"
+  },
+  "funny-shooter": {
+    "pageMapping": "/0/g/funny-shooter/",
+    "imageSrc": "/game/img/funnyshooter-thumb.png",
+    "gameTitle": "Funny Shooter"
+  },
+  "funny-shooter-2": {
+    "pageMapping": "https://smartfoloolol.netlify.app/assets/funny-shooter-2/",
+    "imageSrc": "/game/img/funnyshooter2.png",
+    "gameTitle": "Funny Shooter 2"
+  },
+  "bitlife": {
+    "pageMapping": "/files/uploads/games/bitlife/",
+    "imageSrc": "/game/img/bitlife.png",
+    "gameTitle": "BitLife",
+    "usecdn": true
+  },
+  "monkeymart": {
+    "pageMapping": "/0/g/monkeymart/",
+    "imageSrc": "/game/img/monkeymart.jpg",
+    "gameTitle": "Monkey Mart"
+  },
+  "big-neon-tower-vs-tiny-square": {
+    "pageMapping": "/big-neon-tower-vs-tiny-square/",
+    "usecdn": true,
+    "imageSrc": "/game/img/big-neon-tower.jpg",
+    "gameTitle": "Big neon tower vs. Tiny Square"
+  },
+  "krunker": {
+    "pageMapping": "https://krunker.io/?utm=nate-games",
+    "imageSrc": "/game/img/krunker.png",
+    "gameTitle": "Krunker"
+  },
+  "ovo": {
+    "pageMapping": "/ovo/",
+    "imageSrc": "/game/img/ovo.png",
+    "gameTitle": "OvO",
+    "usecdn": true
+  },
+  "ovo2": {
+    "pageMapping": "/ovo2/",
+    "imageSrc": "/game/img/ovo2.png",
+    "gameTitle": "OvO 2",
+    "usecdn": true
+  },
+  "ovo3": {
+    "pageMapping": "/ovo3/",
+    "imageSrc": "/game/img/ovo3.avif",
+    "gameTitle": "OvO 3 - Dimensions",
+    "usecdn": true
+  },
+  "backrooms": {
+    "pageMapping": "/backrooms/",
+    "imageSrc": "/game/img/backrooms.jpg",
+    "gameTitle": "Backrooms",
+    "description": "We have heard you.",
+    "usecdn": true
+  }
 }
