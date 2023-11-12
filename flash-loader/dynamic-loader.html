@@ -20,16 +20,26 @@
             const container = document.getElementById("container");
             container.appendChild(player);
             const urlParams = new URLSearchParams(window.location.search);
+            const cdnParam = urlParams.get("cdn");
             const swfFilePath = urlParams.get("swf");
+
             if (!swfFilePath) {
-                player.load("logo-anim.swf");
+                console.error("No SWF file specified.");
+                return;
             }
-            if (swfFilePath) {
-                player.load(swfFilePath).then(() => {
+
+            const loadSWF = (path) => {
+                player.load(path).then(() => {
                     console.info("Ruffle successfully loaded the file");
                 }).catch((e) => {
                     console.error(`Ruffle failed to load the file: ${e}`);
                 });
+            };
+            if (cdnParam === "true") {
+                const cdnPath = "https://cdn.nate-games.xyz/files/uploads/swf/" + swfFilePath;
+                loadSWF(cdnPath);
+            } else {
+                loadSWF(swfFilePath);
             }
         });
         window.RufflePlayer.config = {
