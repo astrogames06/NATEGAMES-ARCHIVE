@@ -9,6 +9,18 @@
     "gameTitle": "1v1.LOL",
     "imageSrc": "/game/img/1v1lol.jpg"
   },
+  "baldis-basics": {
+    "pageMapping": "/3kh0/3kh0-assets/main/baldis-basics/",
+    "imageSrc": "https://play-lh.googleusercontent.com/EPV1TB4So1lB0DGrdCVExDpNU8ML67nd8OqBeoOIM-s6sDicxmDdPvCXD6n7LKevFl0",
+    "gameTitle": "Baldi's Basics",
+    "usegithack": true
+  },
+  "greybox": {
+    "pageMapping": "/3kh0/3kh0-assets/main/greybox/",
+    "imageSrc": "/game/img/greybox.png",
+    "gameTitle": "Grey-Box Testing",
+    "usegithack": true
+  },
   "justfall.lol": {
     "pageMapping": "https://cdn.nate-games.xyz/just-fall/",
     "imageSrc": "/game/img/justfall.png",

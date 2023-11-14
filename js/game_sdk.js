@@ -37,12 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
           const gameDesc = queryParamsData.description;
           const imageSrc = queryParamsData.imageSrc;
           const usescdn = queryParamsData.usecdn;
-          const usegithack = queryParamsData.usegithack;
+          const gitcdn = queryParamsData.usegithack;
 
           if (pageMapping) {
             if (usescdn) {
               iframeSrc = config.cdn + pageMapping;
-            } else if (usegithack) {
+            } else if (gitcdn) {
               iframeSrc = config.gitcdn + pageMapping;
             } else {
               iframeSrc = pageMapping;

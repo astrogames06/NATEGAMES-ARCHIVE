@@ -767,8 +767,8 @@
     "hotGame": true
   },
   {
-    "url": "/0/g/greybox/",
-    "imageSrc": "./greybox/game/splash.png",
+    "url": "/game/?greybox",
+    "imageSrc": "/game/img/greybox.png",
     "name": "Grey-Box Testing"
   },
   {
@@ -787,7 +787,7 @@
     "name": "Pacman (FLASH)"
   },
   {
-    "url": "/0/g/baldisbasics/",
+    "url": "/game/?baldis-basics",
     "imageSrc": "https://play-lh.googleusercontent.com/EPV1TB4So1lB0DGrdCVExDpNU8ML67nd8OqBeoOIM-s6sDicxmDdPvCXD6n7LKevFl0",
     "name": "Baldi's Basics"
   },
